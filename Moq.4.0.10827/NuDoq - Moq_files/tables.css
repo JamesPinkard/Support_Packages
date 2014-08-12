@@ -1,0 +1,88 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+table {
+	color:#666;
+	margin:0px;
+	padding:0px;
+    width: 100%;
+}
+
+td {
+	border-bottom:1px solid #CCC;
+    padding-right: 20px;
+	height:40px;	
+	font-size:12px;
+}
+
+    td:first-child {
+        width: 150px;
+    }
+
+tr:last-of-type td {
+	border-bottom:none;
+}
+
+th {
+	border-bottom:1px solid #006699;
+	color:#006699;
+    padding-right: 20px;
+	height:40px;
+	text-align:left;
+	font-size:14px;
+}
+
+#table {
+	clear:both;
+	margin-top:25px;
+	width:100%;
+}
+
+#table-inner {
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+  	border-radius: 5px;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.table-inner-border {
+	border:1px solid #999;
+}
+
+#table-actions {
+	float:right;
+}
+
+#search {
+	float:right !important;
+	padding-bottom:20px;
+	width:inherit !important;
+	height:inherit !important;
+}
+
+
+.admin-BTN {
+	background-color:#006699;
+	border-radius: 2px;
+	color:#FFF;
+	display:block;
+	font-size:28px;
+	-moz-border-radius:5px;
+  	-webkit-border-radius:5px;
+	margin:0px auto;
+	margin-bottom:20px;
+	padding:6px;
+	text-align:center;
+	width:400px;
+	font-family:Segoe UI;
+}
+
+.admin-BTN a {
+	color:#FFF;
+}
+
+.admin-BTN:hover {
+	background-color:#211F52;
+}

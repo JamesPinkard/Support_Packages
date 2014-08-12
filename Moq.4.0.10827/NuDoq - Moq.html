@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html class="ng-scope" ng-app="app" ng-controller="AppController"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>NuDoq - Moq</title>
+    <link href="NuDoq%20-%20Moq_files/bootstrap.css" rel="stylesheet">
+    <link href="NuDoq%20-%20Moq_files/font-awesome.css" rel="stylesheet">
+    <script src="NuDoq%20-%20Moq_files/track.js" defer="defer" async="" type="application/javascript"></script><script src="NuDoq%20-%20Moq_files/9WbOKyNMAqTDcclOTQiZhQ.js" async="" type="text/javascript"></script><script src="NuDoq%20-%20Moq_files/analytics.js" async=""></script><script src="NuDoq%20-%20Moq_files/bootstrap.js"></script>
+    <script src="NuDoq%20-%20Moq_files/angular.js"></script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak{display:none;}ng\:form{display:block;}</style>
+    <link rel="stylesheet" href="NuDoq%20-%20Moq_files/default.css">
+    <script src="NuDoq%20-%20Moq_files/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="NuDoq%20-%20Moq_files/marked.js"></script>
+    <link href="NuDoq%20-%20Moq_files/app.css" rel="stylesheet">
+    <link href="NuDoq%20-%20Moq_files/styles.css" rel="stylesheet">
+    <link href="NuDoq%20-%20Moq_files/tables.css" rel="stylesheet">
+    <script src="NuDoq%20-%20Moq_files/app.js"></script>
+    <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-317338-22', 'www.nudoq.org');
+    ga('send', 'pageview');
+    </script>
+    <script>
+    // Include the UserVoice JavaScript SDK (only needed once on a page)
+    UserVoice = window.UserVoice || []; (function () { var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true; uv.src = '//widget.uservoice.com/9WbOKyNMAqTDcclOTQiZhQ.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s) })();
+
+    //
+    // UserVoice Javascript SDK developer documentation:
+    // https://www.uservoice.com/o/javascript-sdk
+    //
+
+    // Set colors
+    UserVoice.push(['set', {
+        accent_color: '#448dd6',
+        trigger_color: 'white',
+        trigger_background_color: 'rgba(46, 49, 51, 0.6)'
+    }]);
+
+    // Identify the user and pass traits
+    // To enable, replace sample data with actual user traits and uncomment the line
+    UserVoice.push(['identify', {
+        //email:      'john.doe@example.com', // User’s email address
+        //name:       'John Doe', // User’s real name
+        //created_at: 1364406966, // Unix timestamp for the date the user signed up
+        //id:         123, // Optional: Unique id of the user (if set, this should not change)
+        //type:       'Owner', // Optional: segment your users by type
+        //account: {
+        //  id:           123, // Optional: associate multiple users with a single account
+        //  name:         'Acme, Co.', // Account name
+        //  created_at:   1364406966, // Unix timestamp for the date the account was created
+        //  monthly_rate: 9.99, // Decimal; monthly rate of the account
+        //  ltv:          1495.00, // Decimal; lifetime value of the account
+        //  plan:         'Enhanced' // Plan name for the account
+        //}
+    }]);
+
+    // Add default trigger to the bottom-right corner of the window:
+    UserVoice.push(['addTrigger', { mode: 'smartvote', trigger_position: 'top-right' }]);
+
+    // Or, use your own custom trigger:
+    //UserVoice.push(['addTrigger', '#id', { mode: 'smartvote' }]);
+
+    // Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
+    UserVoice.push(['autoprompt', {}]);
+    </script>
+    <script type="text/javascript">
+
+    function toggle(id) {
+
+        var e = document.getElementById(id);
+        var titleElement = document.getElementById(id + "_Title");
+        var imageElement = document.getElementById(id + "_Img");
+
+        if (e.style.display == '') {
+            e.style.display = 'none';
+            titleElement.style.display = 'inline';
+            imageElement.src = "img/collapse.png";
+        }
+        else {
+            e.style.display = '';
+            titleElement.style.display = 'none';
+            imageElement.src = "img/expand.png";
+        }
+    }
+
+    </script>
+<style media="screen" type="text/css">.uv-icon{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;cursor:pointer;position:relative;-webkit-transition:all 300ms;-moz-transition:all 300ms;-o-transition:all 300ms;transition:all 300ms;width:39px;height:39px;position:fixed;z-index:100002;opacity:0.8;-webkit-transition:opacity 100ms;-moz-transition:opacity 100ms;-o-transition:opacity 100ms;transition:opacity 100ms}.uv-icon.uv-bottom-right{bottom:10px;right:12px}.uv-icon.uv-top-right{top:10px;right:12px}.uv-icon.uv-bottom-left{bottom:10px;left:12px}.uv-icon.uv-top-left{top:10px;left:12px}.uv-icon.uv-is-selected{opacity:1}.uv-icon svg{width:39px;height:39px}.uv-popover{font-family:sans-serif;font-weight:100;font-size:13px;color:black;position:fixed;z-index:100001}.uv-popover-content{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;background:white;position:relative;width:325px;height:325px;-webkit-transition:background 200ms;-moz-transition:background 200ms;-o-transition:background 200ms;transition:background 200ms}.uv-bottom .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-top .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-left .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-right .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-ie8 .uv-popover-content{position:relative}.uv-ie8 .uv-popover-content .uv-popover-content-shadow{display:block;background:black;content:'';position:absolute;left:-15px;top:-15px;width:100%;height:100%;filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=15,MakeShadow=true,ShadowOpacity=0.30);z-index:-1}.uv-popover-tail{border:9px solid transparent;width:0;z-index:10;position:absolute;-webkit-transition:border-top-color 200ms;-moz-transition:border-top-color 200ms;-o-transition:border-top-color 200ms;transition:border-top-color 200ms}.uv-top .uv-popover-tail{bottom:-20px;border-top:11px solid white}.uv-bottom .uv-popover-tail{top:-20px;border-bottom:11px solid white}.uv-left .uv-popover-tail{right:-20px;border-left:11px solid white}.uv-right .uv-popover-tail{left:-20px;border-right:11px solid white}.uv-popover-loading{background:white;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;position:absolute;width:100%;height:100%;left:0;top:0}.uv-popover-loading-text{position:absolute;top:50%;margin-top:-0.5em;width:100%;text-align:center}.uv-popover-iframe-container{height:100%}.uv-popover-iframe{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;overflow:hidden}.uv-is-hidden{display:none}.uv-is-invisible{display:block !important;visibility:hidden !important}.uv-is-transitioning{display:block !important}.uv-no-transition{-moz-transition:none !important;-webkit-transition:none !important;-o-transition:color 0 ease-in !important;transition:none !important}.uv-fade{opacity:1;-webkit-transition:opacity 200ms ease-out;-moz-transition:opacity 200ms ease-out;-o-transition:opacity 200ms ease-out;transition:opacity 200ms ease-out}.uv-fade.uv-is-hidden{opacity:0}.uv-scale-top,.uv-scale-top-left,.uv-scale-top-right,.uv-scale-bottom,.uv-scale-bottom-left,.uv-scale-bottom-right,.uv-scale-right,.uv-scale-right-top,.uv-scale-right-bottom,.uv-scale-left,.uv-scale-left-top,.uv-scale-left-bottom,.uv-slide-top,.uv-slide-bottom,.uv-slide-left,.uv-slide-right{opacity:1;-webkit-transition:all 80ms ease-out;-moz-transition:all 80ms ease-out;-o-transition:all 80ms ease-out;transition:all 80ms ease-out}.uv-scale-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%);-moz-transform:scale(0.8) translateY(-15%);-ms-transform:scale(0.8) translateY(-15%);-o-transform:scale(0.8) translateY(-15%);transform:scale(0.8) translateY(-15%)}.uv-scale-top-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%) translateX(-10%);-moz-transform:scale(0.8) translateY(-15%) translateX(-10%);-ms-transform:scale(0.8) translateY(-15%) translateX(-10%);-o-transform:scale(0.8) translateY(-15%) translateX(-10%);transform:scale(0.8) translateY(-15%) translateX(-10%)}.uv-scale-top-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%) translateX(10%);-moz-transform:scale(0.8) translateY(-15%) translateX(10%);-ms-transform:scale(0.8) translateY(-15%) translateX(10%);-o-transform:scale(0.8) translateY(-15%) translateX(10%);transform:scale(0.8) translateY(-15%) translateX(10%)}.uv-scale-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%);-moz-transform:scale(0.8) translateY(15%);-ms-transform:scale(0.8) translateY(15%);-o-transform:scale(0.8) translateY(15%);transform:scale(0.8) translateY(15%)}.uv-scale-bottom-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%) translateX(-10%);-moz-transform:scale(0.8) translateY(15%) translateX(-10%);-ms-transform:scale(0.8) translateY(15%) translateX(-10%);-o-transform:scale(0.8) translateY(15%) translateX(-10%);transform:scale(0.8) translateY(15%) translateX(-10%)}.uv-scale-bottom-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%) translateX(10%);-moz-transform:scale(0.8) translateY(15%) translateX(10%);-ms-transform:scale(0.8) translateY(15%) translateX(10%);-o-transform:scale(0.8) translateY(15%) translateX(10%);transform:scale(0.8) translateY(15%) translateX(10%)}.uv-scale-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%);-moz-transform:scale(0.8) translateX(15%);-ms-transform:scale(0.8) translateX(15%);-o-transform:scale(0.8) translateX(15%);transform:scale(0.8) translateX(15%)}.uv-scale-right-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%) translateY(-10%);-moz-transform:scale(0.8) translateX(15%) translateY(-10%);-ms-transform:scale(0.8) translateX(15%) translateY(-10%);-o-transform:scale(0.8) translateX(15%) translateY(-10%);transform:scale(0.8) translateX(15%) translateY(-10%)}.uv-scale-right-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%) translateY(10%);-moz-transform:scale(0.8) translateX(15%) translateY(10%);-ms-transform:scale(0.8) translateX(15%) translateY(10%);-o-transform:scale(0.8) translateX(15%) translateY(10%);transform:scale(0.8) translateX(15%) translateY(10%)}.uv-scale-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%);-moz-transform:scale(0.8) translateX(-15%);-ms-transform:scale(0.8) translateX(-15%);-o-transform:scale(0.8) translateX(-15%);transform:scale(0.8) translateX(-15%)}.uv-scale-left-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%) translateY(-10%);-moz-transform:scale(0.8) translateX(-15%) translateY(-10%);-ms-transform:scale(0.8) translateX(-15%) translateY(-10%);-o-transform:scale(0.8) translateX(-15%) translateY(-10%);transform:scale(0.8) translateX(-15%) translateY(-10%)}.uv-scale-left-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%) translateY(10%);-moz-transform:scale(0.8) translateX(-15%) translateY(10%);-ms-transform:scale(0.8) translateX(-15%) translateY(10%);-o-transform:scale(0.8) translateX(-15%) translateY(10%);transform:scale(0.8) translateX(-15%) translateY(10%)}.uv-slide-top.uv-is-hidden{-webkit-transform:translateY(-100%);-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-o-transform:translateY(-100%);transform:translateY(-100%)}.uv-slide-bottom.uv-is-hidden{-webkit-transform:translateY(100%);-moz-transform:translateY(100%);-ms-transform:translateY(100%);-o-transform:translateY(100%);transform:translateY(100%)}.uv-slide-left.uv-is-hidden{-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);-ms-transform:translateX(-100%);-o-transform:translateX(-100%);transform:translateX(-100%)}.uv-slide-right.uv-is-hidden{-webkit-transform:translateX(100%);-moz-transform:translateX(100%);-ms-transform:translateX(100%);-o-transform:translateX(100%);transform:translateX(100%)}
+</style><style media="screen" type="text/css">.uv-icon:hover{opacity:1}</style><style media="print" type="text/css">#uvTab,.uv-tray,.uv-icon,.uv-popover,.uv-bubble{display:none!important}</style><script src="NuDoq%20-%20Moq_files/embed.js" async="" type="text/javascript"></script><script src="NuDoq%20-%20Moq_files/embed.js" async="" type="text/javascript"></script><script src="NuDoq%20-%20Moq_files/embed.js" async="" type="text/javascript"></script><script src="NuDoq%20-%20Moq_files/embed.js" async="" type="text/javascript"></script><script src="NuDoq%20-%20Moq_files/embed.js" async="" type="text/javascript"></script><script src="NuDoq%20-%20Moq_files/embed.js" async="" type="text/javascript"></script></head>
+<body data-ready="true">
+    <div class="wrapper" id="mainDiv">
+        <div class="navbar navbar-fixed-top" style="background: #D3D8DB">
+            <a href="http://www.nudoq.org/">
+                <img src="NuDoq%20-%20Moq_files/NuDoq_hdr.png">
+            </a>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid" style="margin-top: 45px">
+                <div class="well well-small" style="float: left; width: 315px; position: fixed; top: 70px; bottom: 10px">
+                    <div>
+                        <ul class="nav nav-list">
+
+                            <div ng-show="projectName != null &amp;&amp; host != 'localhost' &amp;&amp; renderAction != 'error'" class="form-horizontal" style="position: absolute; overflow: visible; top: 10px; bottom: 0px;">
+                                <a href="http://www.nudoq.org/Projects/Moq.zip" title="Download Moq API documentation for offline usage">
+                                    <i class="icon-cloud-download icon-large" style="margin-left: 260px; margin-top: 5px; float: right; text-decoration: none;"></i>
+                                </a>
+                            </div>
+
+                            <div class="form-horizontal" style="width: 260px; position: absolute; overflow: visible; top: 10px; bottom: 0px; overflow-x: hidden; display: inline">
+                                <a style="display: none;" ng-show="renderAction == 'index' || renderAction == 'instructions'" href="http://www.nudoq.org/">Home</a>
+                                <span ng-show="renderAction != 'index' &amp;&amp; renderAction != 'instructions'" style="">
+                                    <a href="http://www.nudoq.org/">Home</a> &gt; <a class="ng-binding" href="#%21/Projects/Moq" title="Moq">Moq</a>
+                                </span>
+                                <div class="input-prepend" style="display: inline">
+                                    <input class="ng-pristine ng-valid" placeholder="Search..." ng-model="query" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'" style="margin-top: 10px; padding-left: 5px; width: 230px" type="text">
+                                    <!--                                    <span class="add-on"><i class="icon-search"></i></span>-->
+                                </div>
+                                <i class="icon-refresh icon-spin icon-large" title="Loading project index..." ng-show="isLoadingIndex == true" style="margin-left: 5px; display: none;"></i>
+                            </div>
+
+                            <div style="overflow: visible; width: 280px; margin-bottom: 10px; margin-top: 20px; overflow-x: hidden; position: absolute; top: 70px; bottom: 0px">
+
+                                <!-- ngRepeat: group in index | filter:query | filter:{ Title: 'Packages' } --><span class="ng-scope" ng-repeat="group in index | filter:query | filter:{ Title: 'Packages' }">
+                                    <li class="nav-header ng-binding">Packages</li>
+                                    <!-- ngRepeat: member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title]) --><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq" title="Moq">Moq</a>
+                                    </li>
+                                    <div style="display: none;" class="loadMore" ng-show="group.Members.length &gt; (defaultLimit + limits[group.Title])">
+                                        &gt; <a ng-click="loadMore(group.Title)">Load More</a> &lt;
+                                    </div>
+                                </span>
+                                <!-- ngRepeat: group in index | filter:query | filter:{ Title: '!Packages' } --><span class="ng-scope" ng-repeat="group in index | filter:query | filter:{ Title: '!Packages' }" on-finish-render="onIndexRenderFinished()">
+                                    <li ng-show="renderAction != 'index'" class="divider" style="margin-right: 10px;"></li>
+                                    <li class="nav-header ng-binding">Assemblies</li>
+                                    <!-- ngRepeat: member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title]) --><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq" title="Moq">Moq</a>
+                                    </li>
+                                    <div style="display: none;" class="loadMore" ng-show="hasLoadMore(group, query)">
+                                        &gt; <a ng-click="loadMore(group.Title)">Load More</a> &lt;
+                                    </div>
+                                </span><span class="ng-scope" ng-repeat="group in index | filter:query | filter:{ Title: '!Packages' }" on-finish-render="onIndexRenderFinished()">
+                                    <li ng-show="renderAction != 'index'" class="divider" style="margin-right: 10px;"></li>
+                                    <li class="nav-header ng-binding">Namespaces</li>
+                                    <!-- ngRepeat: member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title]) --><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Moq" title="Moq">Moq</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Moq.Language" title="Moq.Language">Moq.Language</a>
+                                    </li>
+                                    <div style="display: none;" class="loadMore" ng-show="hasLoadMore(group, query)">
+                                        &gt; <a ng-click="loadMore(group.Title)">Load More</a> &lt;
+                                    </div>
+                                </span><span class="ng-scope" ng-repeat="group in index | filter:query | filter:{ Title: '!Packages' }" on-finish-render="onIndexRenderFinished()">
+                                    <li ng-show="renderAction != 'index'" class="divider" style="margin-right: 10px;"></li>
+                                    <li class="nav-header ng-binding">Types</li>
+                                    <!-- ngRepeat: member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title]) --><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/DefaultValue" title="DefaultValue">DefaultValue</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/ICallback" title="ICallback">ICallback</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/ICallback%28TMock,TResult%29" title="ICallback&lt;TMock, TResult&gt;">ICallback&lt;TMock, TResult&gt;</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/ICallbackGetter%28TMock,TProperty%29" title="ICallbackGetter&lt;TMock, TProperty&gt;">ICallbackGetter&lt;TMock, TProperty&gt;</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/ICallbackSetter%28TProperty%29" title="ICallbackSetter&lt;TProperty&gt;">ICallbackSetter&lt;TProperty&gt;</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/IHideObjectMembers" title="IHideObjectMembers">IHideObjectMembers</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/IMock%28T%29" title="IMock&lt;T&gt;">IMock&lt;T&gt;</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/IMocked" title="IMocked">IMocked</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/IMocked%28T%29" title="IMocked&lt;T&gt;">IMocked&lt;T&gt;</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/IOccurrence" title="IOccurrence">IOccurrence</a>
+                                    </li>
+                                    <div class="loadMore" ng-show="hasLoadMore(group, query)">
+                                        &gt; <a ng-click="loadMore(group.Title)">Load More</a> &lt;
+                                    </div>
+                                </span><span class="ng-scope" ng-repeat="group in index | filter:query | filter:{ Title: '!Packages' }" on-finish-render="onIndexRenderFinished()">
+                                    <li ng-show="renderAction != 'index'" class="divider" style="margin-right: 10px;"></li>
+                                    <li class="nav-header ng-binding">Properties</li>
+                                    <!-- ngRepeat: member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title]) --><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/IMock%28T%29/P/Behavior" title="Behavior (IMock&lt;T&gt;)">Behavior (IMock&lt;T&gt;)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Mock/P/Behavior" title="Behavior (Mock)">Behavior (Mock)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/IMock%28T%29/P/CallBase" title="CallBase (IMock&lt;T&gt;)">CallBase (IMock&lt;T&gt;)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Mock/P/CallBase" title="CallBase (Mock)">CallBase (Mock)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/MockFactory/P/CallBase" title="CallBase (MockFactory)">CallBase (MockFactory)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/MockSequence/P/Cyclic" title="Cyclic">Cyclic</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/IMock%28T%29/P/DefaultValue" title="DefaultValue (IMock&lt;T&gt;)">DefaultValue (IMock&lt;T&gt;)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Mock/P/DefaultValue" title="DefaultValue (Mock)">DefaultValue (Mock)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/MockFactory/P/DefaultValue" title="DefaultValue (MockFactory)">DefaultValue (MockFactory)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/MockException/P/IsVerificationError" title="IsVerificationError">IsVerificationError</a>
+                                    </li>
+                                    <div class="loadMore" ng-show="hasLoadMore(group, query)">
+                                        &gt; <a ng-click="loadMore(group.Title)">Load More</a> &lt;
+                                    </div>
+                                </span><span class="ng-scope" ng-repeat="group in index | filter:query | filter:{ Title: '!Packages' }" on-finish-render="onIndexRenderFinished()">
+                                    <li ng-show="renderAction != 'index'" class="divider" style="margin-right: 10px;"></li>
+                                    <li class="nav-header ng-binding">Fields</li>
+                                    <!-- ngRepeat: member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title]) --><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/MockBehavior/F/Default" title="Default">Default</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/DefaultValue/F/Empty" title="Empty">Empty</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Range/F/Exclusive" title="Exclusive">Exclusive</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Range/F/Inclusive" title="Inclusive">Inclusive</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/MockBehavior/F/Loose" title="Loose">Loose</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/DefaultValue/F/Mock" title="Mock">Mock</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/MockBehavior/F/Strict" title="Strict">Strict</a>
+                                    </li>
+                                    <div style="display: none;" class="loadMore" ng-show="hasLoadMore(group, query)">
+                                        &gt; <a ng-click="loadMore(group.Title)">Load More</a> &lt;
+                                    </div>
+                                </span><span class="ng-scope" ng-repeat="group in index | filter:query | filter:{ Title: '!Packages' }" on-finish-render="onIndexRenderFinished()">
+                                    <li ng-show="renderAction != 'index'" class="divider" style="margin-right: 10px;"></li>
+                                    <li class="nav-header ng-binding">Methods</li>
+                                    <!-- ngRepeat: member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title]) --><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Mock/M/As%28TInterface%29" title="As&lt;TInterface&gt;">As&lt;TInterface&gt;</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Times/M/AtLeast" title="AtLeast">AtLeast</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Times/M/AtLeastOnce" title="AtLeastOnce">AtLeastOnce</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Times/M/AtMost" title="AtMost">AtMost</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Times/M/AtMostOnce" title="AtMostOnce">AtMostOnce</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/Times/M/Between" title="Between">Between</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/ICallback/M/Callback" title="Callback (ICallback)">Callback (ICallback)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/ICallback%28TMock,TResult%29/M/Callback" title="Callback (ICallback&lt;TMock, TResult&gt;)">Callback (ICallback&lt;TMock, TResult&gt;)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/ICallbackGetter%28TMock,TProperty%29/M/Callback" title="Callback (ICallbackGetter&lt;TMock, TProperty&gt;)">Callback (ICallbackGetter&lt;TMock, TProperty&gt;)</a>
+                                    </li><li class="ng-scope" ng-repeat="member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title])">
+                                        <a class="ng-binding" href="#%21/Packages/Moq/Moq/ICallbackSetter%28TProperty%29/M/Callback" title="Callback (ICallbackSetter&lt;TProperty&gt;)">Callback (ICallbackSetter&lt;TProperty&gt;)</a>
+                                    </li>
+                                    <div class="loadMore" ng-show="hasLoadMore(group, query)">
+                                        &gt; <a ng-click="loadMore(group.Title)">Load More</a> &lt;
+                                    </div>
+                                </span><span class="ng-scope" ng-repeat="group in index | filter:query | filter:{ Title: '!Packages' }" on-finish-render="onIndexRenderFinished()">
+                                    <li ng-show="renderAction != 'index'" class="divider" style="margin-right: 10px;"></li>
+                                    <li class="nav-header ng-binding">Events</li>
+                                    <!-- ngRepeat: member in group.Members | filter:query | limitTo:(defaultLimit + limits[group.Title]) -->
+                                    <div style="display: none;" class="loadMore" ng-show="hasLoadMore(group, query)">
+                                        &gt; <a ng-click="loadMore(group.Title)">Load More</a> &lt;
+                                    </div>
+                                </span>
+                            </div>
+
+
+                            <div style="position: fixed; bottom: 5px; margin-left: -20px">
+                                <span>© 2013 Clarius Consulting</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+                <div ng-show="renderAction != 'index' &amp;&amp; newVersionAvailable == true" style="margin-left: 350px; max-width: 800px; margin-top: 35px; display: none;">
+                    <p class="alert-warning ng-binding">
+                        <strong>Update Available</strong>: Click <a href="">here</a> to download the latest Moq API documentation for offline usage
+                    </p>
+                </div>
+
+                <div id="main">
+
+                    <div ng-switch="" on="renderAction" class="content" style="margin-left: 350px; max-width: 800px; margin-top: 35px">
+
+                        <div ng-show="renderAction != 'index' &amp;&amp; isLoadingContent" style="left: 50%; top: 50%; position: absolute; display: none;">
+                            <i class="icon-refresh icon-spin icon-4x" title="Loading content..." style="margin-left: 5px"></i>
+                        </div>
+
+                        <div ng-show="assemblyName != null &amp;&amp; isLoadingContent == false" style="display: none; position: absolute; margin-left: 800px;">
+                            <a href="#%21/Packages/Moq" title="Moq">
+                                <img src="NuDoq%20-%20Moq_files/nuget.png" style="width: 30px; height: 30px;">
+                            </a>
+                        </div>
+
+                        <!-- ngSwitchWhen: instructions -->
+                        <!-- ngSwitchWhen: index -->
+                        <!-- ngSwitchWhen: details --><div class="ng-scope" ng-switch-when="details">
+                            <div class="ng-binding" ng-bind-html-unsafe="content | markdown"><h1>Moq</h1>
+<h2>Moq: an enjoyable mocking library</h2>
+<p><strong>Version: </strong>4.2.1312.1622</p>
+<p>The most popular and friendly mocking framework for .NET</p>
+<p><a href="http://www.nuget.org/packages/Moq" target="_blank"></a><a href="http://www.nuget.org/packages/Moq" target="_blank">http://www.nuget.org/packages/Moq</a></p>
+</div>
+                        </div>
+                        <!-- ngSwitchWhen: error -->
+                        <!-- ngSwitchWhen: details.method -->
+                        <!-- ngSwitchWhen: details.ctor -->
+                    </div>
+
+                    <div ng-show="renderAction != 'index' &amp;&amp; renderAction != 'error' &amp;&amp; contentCommunity != null &amp;&amp; isContentLoaded" style="margin-left: 350px; max-width: 800px; margin-top: 50px; display: none;">
+                        <hr>
+                        <div style="display: inline; float: right">
+                            <a href="https://github.com/NuDoq/Community/edit/master/Projects/Moq.md" class="btn" target="_blank"><i class="icon-fixed-width icon-pencil"></i>Edit</a>
+                        </div>
+                        <h2>Community</h2>
+                        <div class="ng-binding" ng-bind-html-unsafe="contentCommunity | markdown"></div>
+                        <br>
+                        <p class="alert-warning">
+                            <strong>Note</strong>: content is contributed via <a href="http://github.com/" target="_blank">GitHub</a>.
+                            Make sure you're signed in with your account
+ before editing content. Otherwise, you'll get a 404 error with the 
+option to sign in.
+                        </p>
+                    </div>
+
+                    <div ng-show="renderAction != 'index' &amp;&amp; renderAction != 'error' &amp;&amp; contentCommunity == null &amp;&amp; isContentLoaded" style="margin-left: 350px; max-width: 800px; margin-top: 50px;">
+                        <hr>
+                        <div style="display: inline; float: right">
+                            <a href="https://github.com/NuDoq/Community/new/master/Projects?filename=Moq.md" class="btn" target="_blank"><i class="icon-fixed-width icon-pencil"></i>Edit</a>
+                        </div>
+                        <h2>Community</h2>
+                        <div style="margin-top: 10px">Be the first to <a href="https://github.com/NuDoq/Community/new/master/Projects?filename=Moq.md" target="_blank">edit</a> the community content of this topic</div>
+                        <br>
+                        <p class="alert-warning">
+                            <strong>Note</strong>: content is contributed via <a href="http://github.com/" target="_blank">GitHub</a>.
+                            Make sure you're signed in with your account
+ before editing content. Otherwise, you'll get a 404 error with the 
+option to sign in.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div ng-show="renderAction != 'index' &amp;&amp; isContentLoaded" style="margin-left: 350px; max-width: 800px; margin-top: 20px;">
+                    <hr>
+                    <div id="disqus_thread" style="margin-top: 10px"><iframe scrolling="no" style="width: 100% ! important; border: medium none ! important; overflow: hidden ! important; display: none ! important; height: 0px ! important; min-height: 0px ! important; max-height: 0px ! important;" title="Disqus" tabindex="0" allowtransparency="true" data-disqus-uid="1" id="dsq-1" frameborder="0"></iframe><iframe verticalscrolling="no" horizontalscrolling="no" scrolling="no" src="NuDoq%20-%20Moq_files/a.html" style="width: 100% ! important; border: medium none ! important; overflow: hidden ! important; height: 321px ! important;" title="Disqus" tabindex="0" allowtransparency="true" data-disqus-uid="2" id="dsq-2" frameborder="0" width="100%"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="uv-icon uv-top-right" data-html2canvas-ignore="true"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="39px" height="39px" viewBox="0 0 39 39" enable-background="new 0 0 39 39" xml:space="preserve">
+<g>
+	<path style="fill: rgba(46, 49, 51, 0.6);" class="uv-bubble-background" fill="rgba(46, 49, 51, 0.6)" d="M31.425,34.514c-0.432-0.944-0.579-2.007-0.591-2.999c4.264-3.133,7.008-7.969,7.008-13.409
+		C37.842,8.658,29.594,1,19.421,1S1,8.658,1,18.105c0,9.446,7.932,16.79,18.105,16.79c1.845,0,3.94,0.057,5.62-0.412
+		c0.979,1.023,2.243,2.3,2.915,2.791c3.785,2.759,7.571,0,7.571,0S32.687,37.274,31.425,34.514z"></path>
+</g>
+<g>
+	<g>
+		<path style="fill: white;" class="uv-bubble-foreground" fill="#FFFFFF" d="M24.951,9.07c-0.83-0.836-1.857-1.453-2.976-1.786C21.337,7.096,20.672,7,20,7
+			c-1.87,0-3.628,0.736-4.952,2.07C13.728,10.403,13,11.864,13,13.751l0.03,0.648c0.086,0.972,0.368,1.896,0.834,2.752
+			c0.776,1.399,2.367,2.849,2.637,4.993l0.163,0.972C16.809,23.703,17.105,24,17.549,24h5.054c0.445,0,0.742-0.297,0.884-0.884
+			l0.014-0.972c0.268-2.144,1.802-3.593,2.657-4.993c0.443-0.855,0.725-1.779,0.811-2.752L27,13.751
+			C26.999,11.864,26.271,10.405,24.951,9.07z M17.101,26.554h5.741v-1.66h-5.741V26.554z M18.392,28.668h3.216l0.414-0.83h-4.101
+			L18.392,28.668z"></path>
+	</g>
+</g>
+</svg>
+</div></body></html>

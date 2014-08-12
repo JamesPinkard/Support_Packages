@@ -1,0 +1,18 @@
+﻿body {
+    padding: 20px;
+}
+
+.spinner {
+  display: inline-block;
+  opacity: 1;
+  width: 24px;
+
+  -webkit-transition: opacity 0.25s, width 0.25s;
+  -moz-transition: opacity 0.25s, width 0.25s;
+  -o-transition: opacity 0.25s, width 0.25s;
+  transition: opacity 0.25s, width 0.25s;
+}
+
+.loadMore a {
+    cursor: pointer;
+}
