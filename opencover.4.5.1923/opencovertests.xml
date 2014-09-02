@@ -1,0 +1,2296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="518" visitedSequencePoints="459" numBranchPoints="129" visitedBranchPoints="109" sequenceCoverage="88.61" branchCoverage="84.50" maxCyclomaticComplexity="3" minCyclomaticComplexity="0" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="91-86-5E-65-D4-1E-B9-B8-30-80-A9-82-DA-DB-EA-A4-6D-6D-6C-51">
+      <FullName>C:\Windows\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\mscorlib.dll</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F9-04-A8-31-CD-FB-23-72-95-63-5D-14-9A-A0-66-8E-7F-44-93-7A">
+      <FullName>C:\Windows\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\sorttbls.nlp</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6E-30-2E-50-36-FB-60-2C-8E-50-C0-83-54-8B-CC-EA-A8-91-B6-CC">
+      <FullName>C:\Windows\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\sortkey.nlp</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="83-8C-77-8E-83-70-96-83-9B-5F-DA-87-40-A5-A5-8A-A4-C0-04-9C">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\nunit-console-x86.exe</FullName>
+      <ModuleName>nunit-console-x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-C4-E5-DE-F3-EE-AD-84-E1-65-84-CC-15-90-76-96-E7-01-44-4E">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit-console-runner.dll</FullName>
+      <ModuleName>nunit-console-runner</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="33-E1-CA-24-52-5A-B7-C7-C4-AF-91-2C-A9-4A-C0-37-67-0D-5B-FE">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit.core.dll</FullName>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="74-74-F6-87-59-E1-5F-4F-5F-5E-6E-82-50-E8-E2-46-D4-86-15-76">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit.util.dll</FullName>
+      <ModuleName>nunit.util</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-A4-4D-85-55-F7-CE-EF-A5-90-AA-EF-58-E0-9F-B6-CC-27-99-53">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit.core.interfaces.dll</FullName>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A8-11-D7-52-4C-12-FE-1E-D5-1D-AD-35-BD-8E-E7-0A-41-48-A9-CD">
+      <FullName>C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-99-70-9D-4C-FD-70-CC-82-00-AA-75-7A-54-8C-25-AC-54-B1-BF">
+      <FullName>C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B9-41-57-11-41-CB-30-45-24-2F-12-01-C7-35-5D-A9-2E-DB-0A-82">
+      <FullName>C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6D-AB-A6-3D-D1-4A-D1-F2-BE-B2-DF-34-58-20-84-66-6B-4D-8A-A5">
+      <FullName>C:\Windows\assembly\GAC_MSIL\System.Runtime.Remoting\2.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E9-A8-6A-CC-31-FF-25-91-E6-86-F2-D5-72-EE-77-7D-AB-36-F0-0B">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5F-24-CB-C7-2A-89-75-BF-F9-18-42-E9-2D-0B-D9-E3-11-8C-68-2B">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\nunit-agent-x86.exe</FullName>
+      <ModuleName>nunit-agent-x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="33-E1-CA-24-52-5A-B7-C7-C4-AF-91-2C-A9-4A-C0-37-67-0D-5B-FE">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit.core.dll</FullName>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="74-74-F6-87-59-E1-5F-4F-5F-5E-6E-82-50-E8-E2-46-D4-86-15-76">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit.util.dll</FullName>
+      <ModuleName>nunit.util</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-A4-4D-85-55-F7-CE-EF-A5-90-AA-EF-58-E0-9F-B6-CC-27-99-53">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit.core.interfaces.dll</FullName>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-46-4B-BE-28-40-30-A2-E6-52-58-36-C3-F3-E3-75-03-AF-F4-FC">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="65-BE-6B-9B-9C-55-6A-4D-DB-BD-03-60-FD-69-20-48-31-78-A9-5B">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-6E-E8-4F-40-6A-75-31-1B-08-C2-22-D5-EA-FE-23-3B-7B-82-15">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-28-A3-E7-4F-05-75-91-3B-B4-A6-B7-58-E7-27-B0-EF-F7-52-11">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-71-AA-D1-28-9F-3A-03-35-2F-8B-6F-2D-56-17-E0-2A-D3-EF-A3">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</FullName>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CA-F3-30-FA-E1-AC-B2-DF-E0-15-B9-78-AA-0B-CC-AB-F8-E2-11-E5">
+      <FullName>C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll</FullName>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="33-E1-CA-24-52-5A-B7-C7-C4-AF-91-2C-A9-4A-C0-37-67-0D-5B-FE">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit.core.dll</FullName>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-46-4B-BE-28-40-30-A2-E6-52-58-36-C3-F3-E3-75-03-AF-F4-FC">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B6-96-0F-77-90-5D-5D-2F-9A-F2-9F-C4-E5-75-AD-9C-ED-57-F3-17">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\pnunit.framework.dll</FullName>
+      <ModuleName>pnunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-1D-D7-35-9F-DE-AD-6C-C5-85-0E-59-71-C4-80-76-13-06-73-54">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\pnunit-agent.exe</FullName>
+      <ModuleName>pnunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-A4-4D-85-55-F7-CE-EF-A5-90-AA-EF-58-E0-9F-B6-CC-27-99-53">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit.core.interfaces.dll</FullName>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="65-F4-26-CC-77-4E-22-BF-5C-B2-0B-ED-A5-DE-AE-B8-70-2E-4C-02">
+      <Summary numSequencePoints="251" visitedSequencePoints="236" numBranchPoints="53" visitedBranchPoints="49" sequenceCoverage="94.02" branchCoverage="92.45" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" />
+      <FullName>C:\Users\jpinkard\AppData\Local\Temp\nunit20\ShadowCopyCache\14028_635452699811893405\Tests_30107256\assembly\dl3\68541734\ff30135d_d1c6cf01\ExcelSharpTests.dll</FullName>
+      <ModuleName>ExcelSharpTests</ModuleName>
+      <Files>
+        <File uid="1" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\FileLinkTrackerTests\IntegrationTests.cs" />
+        <File uid="2" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\FileLinkTrackerTests\TestHelper.cs" />
+        <File uid="3" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\FileLinkTrackerTests\ExcelOperatorTests.cs" />
+        <File uid="4" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\FileLinkTrackerTests\FactoryOfSheetsTests.cs" />
+        <File uid="7" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\FileLinkTrackerTests\SheetTests.cs" />
+        <File uid="8" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\FileLinkTrackerTests\WorkbookTests.cs" />
+      </Files>
+      <Classes>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="32" visitedSequencePoints="32" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharpTests.IntegrationTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void ExcelSharpTests.IntegrationTests::InitializeWorksheet()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="48" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="12" sl="25" sc="13" el="25" ec="44" />
+                <SequencePoint vc="1" uspid="4" ordinal="3" offset="24" sl="26" sc="13" el="26" ec="47" />
+                <SequencePoint vc="1" uspid="5" ordinal="4" offset="36" sl="27" sc="9" el="27" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void ExcelSharpTests.IntegrationTests::CloseExcel()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="6" ordinal="0" offset="0" sl="31" sc="9" el="31" ec="10" />
+                <SequencePoint vc="1" uspid="7" ordinal="1" offset="1" sl="32" sc="13" el="32" ec="42" />
+                <SequencePoint vc="1" uspid="8" ordinal="2" offset="13" sl="33" sc="13" el="33" ec="39" />
+                <SequencePoint vc="1" uspid="9" ordinal="3" offset="25" sl="34" sc="9" el="34" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="6" ordinal="0" offset="0" sl="31" sc="9" el="31" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>ExcelSharp.Workbook ExcelSharpTests.IntegrationTests::initTestWorkbook()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="10" ordinal="0" offset="0" sl="38" sc="9" el="38" ec="10" />
+                <SequencePoint vc="1" uspid="11" ordinal="1" offset="1" sl="39" sc="13" el="39" ec="56" />
+                <SequencePoint vc="1" uspid="12" ordinal="2" offset="7" sl="40" sc="13" el="40" ec="70" />
+                <SequencePoint vc="1" uspid="13" ordinal="3" offset="13" sl="41" sc="13" el="41" ec="92" />
+                <SequencePoint vc="1" uspid="14" ordinal="4" offset="32" sl="42" sc="13" el="42" ec="33" />
+                <SequencePoint vc="1" uspid="15" ordinal="5" offset="36" sl="43" sc="9" el="43" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="10" ordinal="0" offset="0" sl="38" sc="9" el="38" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void ExcelSharpTests.IntegrationTests::FactoryOfTableSheets_IntegrationTest()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="16" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" />
+                <SequencePoint vc="1" uspid="17" ordinal="1" offset="1" sl="49" sc="13" el="49" ec="83" />
+                <SequencePoint vc="1" uspid="18" ordinal="2" offset="13" sl="50" sc="13" el="50" ec="61" />
+                <SequencePoint vc="1" uspid="19" ordinal="3" offset="25" sl="53" sc="13" el="53" ec="53" />
+                <SequencePoint vc="1" uspid="20" ordinal="4" offset="32" sl="54" sc="13" el="54" ec="64" />
+                <SequencePoint vc="1" uspid="21" ordinal="5" offset="44" sl="55" sc="13" el="55" ec="85" />
+                <SequencePoint vc="1" uspid="22" ordinal="6" offset="79" sl="56" sc="13" el="56" ec="81" />
+                <SequencePoint vc="1" uspid="23" ordinal="7" offset="106" sl="57" sc="13" el="57" ec="78" />
+                <SequencePoint vc="1" uspid="24" ordinal="8" offset="133" sl="59" sc="13" el="59" ec="80" />
+                <SequencePoint vc="1" uspid="25" ordinal="9" offset="145" sl="60" sc="13" el="60" ec="55" />
+                <SequencePoint vc="1" uspid="26" ordinal="10" offset="153" sl="61" sc="13" el="61" ec="49" />
+                <SequencePoint vc="1" uspid="27" ordinal="11" offset="160" sl="62" sc="13" el="62" ec="63" />
+                <SequencePoint vc="1" uspid="28" ordinal="12" offset="173" sl="64" sc="13" el="64" ec="85" />
+                <SequencePoint vc="1" uspid="29" ordinal="13" offset="208" sl="65" sc="13" el="65" ec="79" />
+                <SequencePoint vc="1" uspid="30" ordinal="14" offset="236" sl="66" sc="13" el="66" ec="76" />
+                <SequencePoint vc="1" uspid="31" ordinal="15" offset="264" sl="67" sc="13" el="67" ec="74" />
+                <SequencePoint vc="1" uspid="32" ordinal="16" offset="288" sl="68" sc="9" el="68" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="16" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void ExcelSharpTests.IntegrationTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="33" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharpTests.TestHelper</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void ExcelSharpTests.TestHelper::InitializeExcel(ExcelSharp.ExcelOperator,ExcelSharp.Workbook)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="34" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" />
+                <SequencePoint vc="0" uspid="35" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="44" />
+                <SequencePoint vc="0" uspid="36" ordinal="2" offset="8" sl="15" sc="13" el="15" ec="59" />
+                <SequencePoint vc="0" uspid="37" ordinal="3" offset="17" sl="16" sc="9" el="16" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="34" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void ExcelSharpTests.TestHelper::CloseExcel(ExcelSharp.ExcelOperator)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="38" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" />
+                <SequencePoint vc="0" uspid="39" ordinal="1" offset="1" sl="20" sc="13" el="20" ec="42" />
+                <SequencePoint vc="0" uspid="40" ordinal="2" offset="8" sl="21" sc="13" el="21" ec="39" />
+                <SequencePoint vc="0" uspid="41" ordinal="3" offset="15" sl="22" sc="9" el="22" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="38" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void ExcelSharpTests.TestHelper::ClearCells(ExcelSharp.Workbook)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="42" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" />
+                <SequencePoint vc="0" uspid="43" ordinal="1" offset="1" sl="26" sc="13" el="26" ec="51" />
+                <SequencePoint vc="0" uspid="44" ordinal="2" offset="13" sl="27" sc="9" el="27" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="42" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>ExcelSharp.Workbook ExcelSharpTests.TestHelper::initTestWorkbook(ExcelSharp.ExcelOperator)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="45" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" />
+                <SequencePoint vc="0" uspid="46" ordinal="1" offset="1" sl="31" sc="13" el="31" ec="65" />
+                <SequencePoint vc="0" uspid="47" ordinal="2" offset="9" sl="32" sc="13" el="32" ec="33" />
+                <SequencePoint vc="0" uspid="48" ordinal="3" offset="13" sl="33" sc="9" el="33" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="45" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void ExcelSharpTests.TestHelper::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="49" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="25" visitedSequencePoints="25" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharpTests.ExcelOperatorTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void ExcelSharpTests.ExcelOperatorTests::InitializeExcel()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="50" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" />
+                <SequencePoint vc="3" uspid="51" ordinal="1" offset="1" sl="19" sc="13" el="19" ec="53" />
+                <SequencePoint vc="3" uspid="52" ordinal="2" offset="12" sl="20" sc="9" el="20" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="50" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void ExcelSharpTests.ExcelOperatorTests::ExcelOperator_Initialize_InitializesWorksheet()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="53" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" />
+                <SequencePoint vc="1" uspid="54" ordinal="1" offset="1" sl="28" sc="13" el="28" ec="60" />
+                <SequencePoint vc="1" uspid="55" ordinal="2" offset="28" sl="29" sc="9" el="29" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="53" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void ExcelSharpTests.ExcelOperatorTests::ExcelOperator_CloseExcel_CloseExcelApplication()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="56" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" />
+                <SequencePoint vc="1" uspid="57" ordinal="1" offset="1" sl="35" sc="13" el="35" ec="39" />
+                <SequencePoint vc="1" uspid="58" ordinal="2" offset="13" sl="37" sc="13" el="37" ec="61" />
+                <SequencePoint vc="1" uspid="59" ordinal="3" offset="40" sl="38" sc="9" el="38" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="56" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void ExcelSharpTests.ExcelOperatorTests::ExcelOperator_NewWorkbook_OpensNewWorkbook()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="60" ordinal="0" offset="0" sl="43" sc="9" el="43" ec="10" />
+                <SequencePoint vc="1" uspid="61" ordinal="1" offset="1" sl="44" sc="13" el="44" ec="41" />
+                <SequencePoint vc="1" uspid="62" ordinal="2" offset="14" sl="46" sc="13" el="46" ec="68" />
+                <SequencePoint vc="1" uspid="63" ordinal="3" offset="47" sl="47" sc="9" el="47" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="60" ordinal="0" offset="0" sl="43" sc="9" el="43" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void ExcelSharpTests.ExcelOperatorTests::CloseExcelOperator()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="64" ordinal="0" offset="0" sl="51" sc="9" el="51" ec="10" />
+                <SequencePoint vc="3" uspid="65" ordinal="1" offset="1" sl="52" sc="13" el="52" ec="42" />
+                <SequencePoint vc="2" uspid="66" ordinal="2" offset="19" sl="53" sc="10" el="53" ec="11" />
+                <SequencePoint vc="2" uspid="67" ordinal="3" offset="20" sl="54" sc="11" el="54" ec="37" />
+                <SequencePoint vc="2" uspid="68" ordinal="4" offset="32" sl="55" sc="10" el="55" ec="11" />
+                <SequencePoint vc="3" uspid="69" ordinal="5" offset="33" sl="56" sc="9" el="56" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="70" ordinal="0" offset="17" path="0" />
+                <BranchPoint vc="1" uspid="71" ordinal="1" offset="17" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="64" ordinal="0" offset="0" sl="51" sc="9" el="51" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>ExcelSharp.ExcelOperator ExcelSharpTests.ExcelOperatorTests::getInitializedOperator()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="72" ordinal="0" offset="0" sl="59" sc="9" el="59" ec="10" />
+                <SequencePoint vc="3" uspid="73" ordinal="1" offset="1" sl="60" sc="13" el="60" ec="62" />
+                <SequencePoint vc="3" uspid="74" ordinal="2" offset="7" sl="62" sc="13" el="62" ec="44" />
+                <SequencePoint vc="3" uspid="75" ordinal="3" offset="14" sl="63" sc="13" el="63" ec="33" />
+                <SequencePoint vc="3" uspid="76" ordinal="4" offset="18" sl="64" sc="9" el="64" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="72" ordinal="0" offset="0" sl="59" sc="9" el="59" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void ExcelSharpTests.ExcelOperatorTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="77" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="51" visitedSequencePoints="51" numBranchPoints="10" visitedBranchPoints="10" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharpTests.BaseSheetFactoryTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>ExcelSharp.ExcelOperator ExcelSharpTests.BaseSheetFactoryTests::get_testOperator()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="8" uspid="78" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::set_testOperator(ExcelSharp.ExcelOperator)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="79" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>ExcelSharp.Workbook ExcelSharpTests.BaseSheetFactoryTests::get_testWorkbook()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="34" uspid="80" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::set_testWorkbook(ExcelSharp.Workbook)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="81" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::InitializeWorksheet()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="82" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" />
+                <SequencePoint vc="2" uspid="83" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="48" />
+                <SequencePoint vc="2" uspid="84" ordinal="2" offset="13" sl="25" sc="13" el="25" ec="44" />
+                <SequencePoint vc="2" uspid="85" ordinal="3" offset="25" sl="26" sc="13" el="26" ec="47" />
+                <SequencePoint vc="2" uspid="86" ordinal="4" offset="38" sl="27" sc="9" el="27" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="82" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>ExcelSharp.Workbook ExcelSharpTests.BaseSheetFactoryTests::initTestWorkbook()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="87" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" />
+                <SequencePoint vc="2" uspid="88" ordinal="1" offset="1" sl="30" sc="13" el="30" ec="56" />
+                <SequencePoint vc="2" uspid="89" ordinal="2" offset="7" sl="31" sc="13" el="31" ec="70" />
+                <SequencePoint vc="2" uspid="90" ordinal="3" offset="13" sl="32" sc="13" el="32" ec="92" />
+                <SequencePoint vc="2" uspid="91" ordinal="4" offset="32" sl="33" sc="13" el="33" ec="33" />
+                <SequencePoint vc="2" uspid="92" ordinal="5" offset="36" sl="34" sc="9" el="34" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="87" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::CloseExcel()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="93" ordinal="0" offset="0" sl="38" sc="9" el="38" ec="10" />
+                <SequencePoint vc="2" uspid="94" ordinal="1" offset="1" sl="39" sc="13" el="39" ec="42" />
+                <SequencePoint vc="2" uspid="95" ordinal="2" offset="13" sl="40" sc="13" el="40" ec="39" />
+                <SequencePoint vc="2" uspid="96" ordinal="3" offset="25" sl="41" sc="9" el="41" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="93" ordinal="0" offset="0" sl="38" sc="9" el="38" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::setUpTableSheetFactory()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="97" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" />
+                <SequencePoint vc="6" uspid="98" ordinal="1" offset="1" sl="45" sc="13" el="45" ec="44" />
+                <SequencePoint vc="6" uspid="99" ordinal="2" offset="14" sl="46" sc="13" el="46" ec="64" />
+                <SequencePoint vc="6" uspid="100" ordinal="3" offset="37" sl="47" sc="9" el="47" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="97" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::SheetFactory_ExecuteWithWorkbook_MakesNewSheet()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="101" ordinal="0" offset="0" sl="52" sc="9" el="52" ec="10" />
+                <SequencePoint vc="2" uspid="102" ordinal="1" offset="1" sl="53" sc="13" el="53" ec="44" />
+                <SequencePoint vc="2" uspid="103" ordinal="2" offset="14" sl="54" sc="13" el="54" ec="61" />
+                <SequencePoint vc="2" uspid="104" ordinal="3" offset="26" sl="56" sc="13" el="56" ec="47" />
+                <SequencePoint vc="2" uspid="105" ordinal="4" offset="38" sl="58" sc="13" el="58" ec="84" />
+                <SequencePoint vc="2" uspid="106" ordinal="5" offset="73" sl="59" sc="9" el="59" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="101" ordinal="0" offset="0" sl="52" sc="9" el="52" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::SheetFactory_ExecuteWithWorkbook_NewSheetHasTableWriter()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="107" ordinal="0" offset="0" sl="63" sc="9" el="63" ec="10" />
+                <SequencePoint vc="2" uspid="108" ordinal="1" offset="1" sl="64" sc="13" el="64" ec="44" />
+                <SequencePoint vc="2" uspid="109" ordinal="2" offset="14" sl="66" sc="13" el="66" ec="47" />
+                <SequencePoint vc="2" uspid="110" ordinal="3" offset="26" sl="68" sc="13" el="68" ec="91" />
+                <SequencePoint vc="2" uspid="111" ordinal="4" offset="59" sl="69" sc="9" el="69" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="107" ordinal="0" offset="0" sl="63" sc="9" el="63" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::SheetFactory_ExecuteWithWorkbook_NewSheetHasTableTools()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="112" ordinal="0" offset="0" sl="73" sc="9" el="73" ec="10" />
+                <SequencePoint vc="2" uspid="113" ordinal="1" offset="1" sl="74" sc="13" el="74" ec="44" />
+                <SequencePoint vc="2" uspid="114" ordinal="2" offset="14" sl="76" sc="13" el="76" ec="47" />
+                <SequencePoint vc="2" uspid="115" ordinal="3" offset="26" sl="78" sc="13" el="78" ec="89" />
+                <SequencePoint vc="2" uspid="116" ordinal="4" offset="59" sl="79" sc="9" el="79" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="112" ordinal="0" offset="0" sl="73" sc="9" el="73" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::SheetFactory_ExecuteWithSheet_MakesNewSheet()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="117" ordinal="0" offset="0" sl="83" sc="9" el="83" ec="10" />
+                <SequencePoint vc="2" uspid="118" ordinal="1" offset="1" sl="84" sc="13" el="84" ec="38" />
+                <SequencePoint vc="2" uspid="119" ordinal="2" offset="8" sl="85" sc="13" el="85" ec="61" />
+                <SequencePoint vc="2" uspid="120" ordinal="3" offset="20" sl="87" sc="13" el="87" ec="44" />
+                <SequencePoint vc="2" uspid="121" ordinal="4" offset="32" sl="89" sc="13" el="89" ec="85" />
+                <SequencePoint vc="2" uspid="122" ordinal="5" offset="67" sl="90" sc="9" el="90" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="117" ordinal="0" offset="0" sl="83" sc="9" el="83" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::SheetFactory_ExecuteWithSheet_NewSheetHasTableWriter()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="123" ordinal="0" offset="0" sl="94" sc="9" el="94" ec="10" />
+                <SequencePoint vc="2" uspid="124" ordinal="1" offset="1" sl="95" sc="13" el="95" ec="38" />
+                <SequencePoint vc="2" uspid="125" ordinal="2" offset="8" sl="97" sc="13" el="97" ec="44" />
+                <SequencePoint vc="2" uspid="126" ordinal="3" offset="20" sl="99" sc="13" el="99" ec="92" />
+                <SequencePoint vc="2" uspid="127" ordinal="4" offset="53" sl="100" sc="9" el="100" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="123" ordinal="0" offset="0" sl="94" sc="9" el="94" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::SheetFactory_ExecuteWithSheet_NewSheetHasTableTools()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="128" ordinal="0" offset="0" sl="104" sc="9" el="104" ec="10" />
+                <SequencePoint vc="2" uspid="129" ordinal="1" offset="1" sl="105" sc="13" el="105" ec="38" />
+                <SequencePoint vc="2" uspid="130" ordinal="2" offset="8" sl="107" sc="13" el="107" ec="44" />
+                <SequencePoint vc="2" uspid="131" ordinal="3" offset="20" sl="109" sc="13" el="109" ec="89" />
+                <SequencePoint vc="2" uspid="132" ordinal="4" offset="53" sl="110" sc="9" el="110" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="128" ordinal="0" offset="0" sl="104" sc="9" el="104" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void ExcelSharpTests.BaseSheetFactoryTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="133" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharpTests.TableSheetFactoryTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>ExcelSharp.SheetFactory ExcelSharpTests.TableSheetFactoryTests::get_testFactory()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="134" ordinal="0" offset="0" sl="123" sc="17" el="123" ec="18" />
+                <SequencePoint vc="9" uspid="135" ordinal="1" offset="1" sl="123" sc="19" el="123" ec="43" />
+                <SequencePoint vc="9" uspid="136" ordinal="2" offset="10" sl="123" sc="44" el="123" ec="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="134" ordinal="0" offset="0" sl="123" sc="17" el="123" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void ExcelSharpTests.TableSheetFactoryTests::set_testFactory(ExcelSharp.SheetFactory)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="137" ordinal="0" offset="0" sl="124" sc="17" el="124" ec="18" />
+                <SequencePoint vc="6" uspid="138" ordinal="1" offset="1" sl="124" sc="19" el="124" ec="65" />
+                <SequencePoint vc="6" uspid="139" ordinal="2" offset="13" sl="124" sc="66" el="124" ec="67" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="137" ordinal="0" offset="0" sl="124" sc="17" el="124" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Type ExcelSharpTests.TableSheetFactoryTests::get_writerType()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="140" ordinal="0" offset="0" sl="128" sc="17" el="128" ec="18" />
+                <SequencePoint vc="2" uspid="141" ordinal="1" offset="1" sl="128" sc="19" el="128" ec="51" />
+                <SequencePoint vc="2" uspid="142" ordinal="2" offset="14" sl="128" sc="52" el="128" ec="53" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="140" ordinal="0" offset="0" sl="128" sc="17" el="128" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Type ExcelSharpTests.TableSheetFactoryTests::get_toolType()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="143" ordinal="0" offset="0" sl="132" sc="17" el="132" ec="18" />
+                <SequencePoint vc="2" uspid="144" ordinal="1" offset="1" sl="132" sc="19" el="132" ec="49" />
+                <SequencePoint vc="2" uspid="145" ordinal="2" offset="14" sl="132" sc="50" el="132" ec="51" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="143" ordinal="0" offset="0" sl="132" sc="17" el="132" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>ExcelSharp.SheetFactory ExcelSharpTests.TableSheetFactoryTests::getTestFactory()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="146" ordinal="0" offset="0" sl="136" sc="9" el="136" ec="10" />
+                <SequencePoint vc="6" uspid="147" ordinal="1" offset="1" sl="137" sc="13" el="137" ec="56" />
+                <SequencePoint vc="6" uspid="148" ordinal="2" offset="15" sl="138" sc="9" el="138" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="146" ordinal="0" offset="0" sl="136" sc="9" el="136" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Void ExcelSharpTests.TableSheetFactoryTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="149" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharpTests.LinkSheetFactoryTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>ExcelSharp.SheetFactory ExcelSharpTests.LinkSheetFactoryTests::get_testFactory()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="150" ordinal="0" offset="0" sl="151" sc="13" el="151" ec="14" />
+                <SequencePoint vc="9" uspid="151" ordinal="1" offset="1" sl="152" sc="17" el="152" ec="40" />
+                <SequencePoint vc="9" uspid="152" ordinal="2" offset="10" sl="153" sc="13" el="153" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="150" ordinal="0" offset="0" sl="151" sc="13" el="151" ec="14" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.Void ExcelSharpTests.LinkSheetFactoryTests::set_testFactory(ExcelSharp.SheetFactory)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="153" ordinal="0" offset="0" sl="155" sc="13" el="155" ec="14" />
+                <SequencePoint vc="6" uspid="154" ordinal="1" offset="1" sl="156" sc="17" el="156" ec="60" />
+                <SequencePoint vc="6" uspid="155" ordinal="2" offset="13" sl="157" sc="13" el="157" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="153" ordinal="0" offset="0" sl="155" sc="13" el="155" ec="14" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.Type ExcelSharpTests.LinkSheetFactoryTests::get_writerType()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="156" ordinal="0" offset="0" sl="162" sc="17" el="162" ec="18" />
+                <SequencePoint vc="2" uspid="157" ordinal="1" offset="1" sl="162" sc="19" el="162" ec="50" />
+                <SequencePoint vc="2" uspid="158" ordinal="2" offset="14" sl="162" sc="51" el="162" ec="52" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="156" ordinal="0" offset="0" sl="162" sc="17" el="162" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663343</MetadataToken>
+              <Name>System.Type ExcelSharpTests.LinkSheetFactoryTests::get_toolType()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="159" ordinal="0" offset="0" sl="167" sc="17" el="167" ec="18" />
+                <SequencePoint vc="2" uspid="160" ordinal="1" offset="1" sl="167" sc="19" el="167" ec="48" />
+                <SequencePoint vc="2" uspid="161" ordinal="2" offset="14" sl="167" sc="49" el="167" ec="50" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="159" ordinal="0" offset="0" sl="167" sc="17" el="167" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663344</MetadataToken>
+              <Name>ExcelSharp.SheetFactory ExcelSharpTests.LinkSheetFactoryTests::getTestFactory()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="162" ordinal="0" offset="0" sl="171" sc="9" el="171" ec="10" />
+                <SequencePoint vc="6" uspid="163" ordinal="1" offset="1" sl="172" sc="13" el="172" ec="55" />
+                <SequencePoint vc="6" uspid="164" ordinal="2" offset="15" sl="173" sc="9" el="173" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="162" ordinal="0" offset="0" sl="171" sc="9" el="171" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663345</MetadataToken>
+              <Name>System.Void ExcelSharpTests.LinkSheetFactoryTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="165" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="66" visitedSequencePoints="66" numBranchPoints="10" visitedBranchPoints="10" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharpTests.SheetTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.Void ExcelSharpTests.SheetTests::InitializeWorksheet()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="166" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" />
+                <SequencePoint vc="1" uspid="167" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="48" />
+                <SequencePoint vc="1" uspid="168" ordinal="2" offset="12" sl="23" sc="13" el="23" ec="44" />
+                <SequencePoint vc="1" uspid="169" ordinal="3" offset="24" sl="24" sc="13" el="24" ec="47" />
+                <SequencePoint vc="1" uspid="170" ordinal="4" offset="36" sl="25" sc="9" el="25" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="166" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663347</MetadataToken>
+              <Name>System.Void ExcelSharpTests.SheetTests::CloseExcel()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="171" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" />
+                <SequencePoint vc="1" uspid="172" ordinal="1" offset="1" sl="30" sc="13" el="30" ec="42" />
+                <SequencePoint vc="1" uspid="173" ordinal="2" offset="13" sl="31" sc="13" el="31" ec="39" />
+                <SequencePoint vc="1" uspid="174" ordinal="3" offset="25" sl="32" sc="9" el="32" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="171" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663348</MetadataToken>
+              <Name>ExcelSharp.Workbook ExcelSharpTests.SheetTests::initTestWorkbook()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="175" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="10" />
+                <SequencePoint vc="1" uspid="176" ordinal="1" offset="1" sl="37" sc="13" el="37" ec="56" />
+                <SequencePoint vc="1" uspid="177" ordinal="2" offset="7" sl="38" sc="13" el="38" ec="70" />
+                <SequencePoint vc="1" uspid="178" ordinal="3" offset="13" sl="39" sc="13" el="39" ec="92" />
+                <SequencePoint vc="1" uspid="179" ordinal="4" offset="32" sl="40" sc="13" el="40" ec="33" />
+                <SequencePoint vc="1" uspid="180" ordinal="5" offset="36" sl="41" sc="9" el="41" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="175" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Void ExcelSharpTests.SheetTests::Sheet_GetCells_ReturnsArrayOfValuesBlockOfCells()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="181" ordinal="0" offset="0" sl="46" sc="9" el="46" ec="10" />
+                <SequencePoint vc="1" uspid="182" ordinal="1" offset="1" sl="47" sc="13" el="47" ec="37" />
+                <SequencePoint vc="1" uspid="183" ordinal="2" offset="8" sl="48" sc="13" el="48" ec="56" />
+                <SequencePoint vc="1" uspid="184" ordinal="3" offset="14" sl="49" sc="13" el="49" ec="57" />
+                <SequencePoint vc="1" uspid="185" ordinal="4" offset="22" sl="50" sc="13" el="50" ec="48" />
+                <SequencePoint vc="1" uspid="186" ordinal="5" offset="29" sl="52" sc="13" el="52" ec="50" />
+                <SequencePoint vc="1" uspid="187" ordinal="6" offset="38" sl="54" sc="13" el="54" ec="69" />
+                <SequencePoint vc="1" uspid="188" ordinal="7" offset="60" sl="55" sc="13" el="55" ec="61" />
+                <SequencePoint vc="1" uspid="189" ordinal="8" offset="73" sl="56" sc="9" el="56" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="181" ordinal="0" offset="0" sl="46" sc="9" el="46" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663350</MetadataToken>
+              <Name>System.Void ExcelSharpTests.SheetTests::Sheet_GetRange_ReturnsArrayOfValuesInRange()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="190" ordinal="0" offset="0" sl="60" sc="9" el="60" ec="10" />
+                <SequencePoint vc="1" uspid="191" ordinal="1" offset="1" sl="61" sc="13" el="61" ec="37" />
+                <SequencePoint vc="1" uspid="192" ordinal="2" offset="8" sl="62" sc="13" el="62" ec="54" />
+                <SequencePoint vc="1" uspid="193" ordinal="3" offset="14" sl="63" sc="13" el="63" ec="56" />
+                <SequencePoint vc="1" uspid="194" ordinal="4" offset="22" sl="64" sc="13" el="64" ec="48" />
+                <SequencePoint vc="1" uspid="195" ordinal="5" offset="29" sl="66" sc="13" el="66" ec="56" />
+                <SequencePoint vc="1" uspid="196" ordinal="6" offset="46" sl="68" sc="13" el="68" ec="60" />
+                <SequencePoint vc="1" uspid="197" ordinal="7" offset="59" sl="69" sc="9" el="69" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="190" ordinal="0" offset="0" sl="60" sc="9" el="60" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663351</MetadataToken>
+              <Name>System.Void ExcelSharpTests.SheetTests::setupActiveSheetArray()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="198" ordinal="0" offset="0" sl="76" sc="9" el="76" ec="10" />
+                <SequencePoint vc="2" uspid="199" ordinal="1" offset="1" sl="77" sc="13" el="77" ec="41" />
+                <SequencePoint vc="2" uspid="200" ordinal="2" offset="14" sl="78" sc="9" el="78" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="198" ordinal="0" offset="0" sl="76" sc="9" el="76" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663352</MetadataToken>
+              <Name>System.String[0...,0...] ExcelSharpTests.SheetTests::setupHeaderArray()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="201" ordinal="0" offset="0" sl="86" sc="9" el="86" ec="10" />
+                <SequencePoint vc="1" uspid="202" ordinal="1" offset="1" sl="87" sc="13" el="87" ec="54" />
+                <SequencePoint vc="1" uspid="203" ordinal="2" offset="9" sl="88" sc="13" el="88" ec="46" />
+                <SequencePoint vc="1" uspid="204" ordinal="3" offset="22" sl="89" sc="13" el="89" ec="45" />
+                <SequencePoint vc="1" uspid="205" ordinal="4" offset="35" sl="90" sc="13" el="90" ec="45" />
+                <SequencePoint vc="1" uspid="206" ordinal="5" offset="48" sl="91" sc="13" el="91" ec="32" />
+                <SequencePoint vc="1" uspid="207" ordinal="6" offset="52" sl="92" sc="9" el="92" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="201" ordinal="0" offset="0" sl="86" sc="9" el="86" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663353</MetadataToken>
+              <Name>System.String[0...,0...] ExcelSharpTests.SheetTests::setupTestArray(System.Int32,System.Int32)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="208" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" />
+                <SequencePoint vc="2" uspid="209" ordinal="1" offset="1" sl="102" sc="13" el="102" ec="58" />
+                <SequencePoint vc="2" uspid="210" ordinal="2" offset="9" sl="103" sc="13" el="103" ec="30" />
+                <SequencePoint vc="2" uspid="211" ordinal="3" offset="13" sl="104" sc="9" el="104" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="208" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663354</MetadataToken>
+              <Name>ExcelSharp.Sheet ExcelSharpTests.SheetTests::setupTestSheet()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="212" ordinal="0" offset="0" sl="111" sc="9" el="111" ec="10" />
+                <SequencePoint vc="2" uspid="213" ordinal="1" offset="1" sl="112" sc="13" el="112" ec="56" />
+                <SequencePoint vc="2" uspid="214" ordinal="2" offset="14" sl="113" sc="13" el="113" ec="30" />
+                <SequencePoint vc="2" uspid="215" ordinal="3" offset="18" sl="114" sc="9" el="114" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="212" ordinal="0" offset="0" sl="111" sc="9" el="111" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663355</MetadataToken>
+              <Name>System.String[0...,0...] ExcelSharpTests.SheetTests::setupNamesArray()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="216" ordinal="0" offset="0" sl="124" sc="9" el="124" ec="10" />
+                <SequencePoint vc="1" uspid="217" ordinal="1" offset="1" sl="125" sc="13" el="125" ec="53" />
+                <SequencePoint vc="1" uspid="218" ordinal="2" offset="9" sl="126" sc="13" el="126" ec="45" />
+                <SequencePoint vc="1" uspid="219" ordinal="3" offset="22" sl="127" sc="13" el="127" ec="44" />
+                <SequencePoint vc="1" uspid="220" ordinal="4" offset="35" sl="128" sc="13" el="128" ec="44" />
+                <SequencePoint vc="1" uspid="221" ordinal="5" offset="48" sl="129" sc="13" el="129" ec="40" />
+                <SequencePoint vc="1" uspid="222" ordinal="6" offset="61" sl="130" sc="13" el="130" ec="42" />
+                <SequencePoint vc="1" uspid="223" ordinal="7" offset="74" sl="131" sc="13" el="131" ec="48" />
+                <SequencePoint vc="1" uspid="224" ordinal="8" offset="87" sl="132" sc="13" el="132" ec="40" />
+                <SequencePoint vc="1" uspid="225" ordinal="9" offset="100" sl="133" sc="13" el="133" ec="42" />
+                <SequencePoint vc="1" uspid="226" ordinal="10" offset="113" sl="134" sc="13" el="134" ec="48" />
+                <SequencePoint vc="1" uspid="227" ordinal="11" offset="126" sl="135" sc="13" el="135" ec="41" />
+                <SequencePoint vc="1" uspid="228" ordinal="12" offset="139" sl="136" sc="13" el="136" ec="43" />
+                <SequencePoint vc="1" uspid="229" ordinal="13" offset="152" sl="137" sc="13" el="137" ec="50" />
+                <SequencePoint vc="1" uspid="230" ordinal="14" offset="165" sl="138" sc="13" el="138" ec="31" />
+                <SequencePoint vc="1" uspid="231" ordinal="15" offset="169" sl="139" sc="9" el="139" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="216" ordinal="0" offset="0" sl="124" sc="9" el="124" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663356</MetadataToken>
+              <Name>System.Void ExcelSharpTests.SheetTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="232" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="32" visitedSequencePoints="32" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharpTests.WorkbookTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663357</MetadataToken>
+              <Name>System.Void ExcelSharpTests.WorkbookTests::InitializeWorkbook()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="233" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" />
+                <SequencePoint vc="1" uspid="234" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="48" />
+                <SequencePoint vc="1" uspid="235" ordinal="2" offset="12" sl="23" sc="13" el="23" ec="44" />
+                <SequencePoint vc="1" uspid="236" ordinal="3" offset="24" sl="24" sc="13" el="24" ec="47" />
+                <SequencePoint vc="1" uspid="237" ordinal="4" offset="36" sl="25" sc="9" el="25" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="233" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663358</MetadataToken>
+              <Name>System.Void ExcelSharpTests.WorkbookTests::CloseExcel()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="238" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" />
+                <SequencePoint vc="1" uspid="239" ordinal="1" offset="1" sl="30" sc="13" el="30" ec="42" />
+                <SequencePoint vc="1" uspid="240" ordinal="2" offset="13" sl="31" sc="13" el="31" ec="39" />
+                <SequencePoint vc="1" uspid="241" ordinal="3" offset="25" sl="32" sc="9" el="32" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="238" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663359</MetadataToken>
+              <Name>System.Void ExcelSharpTests.WorkbookTests::Workbook_AddSheet_AddsNewSheet()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="242" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" />
+                <SequencePoint vc="1" uspid="243" ordinal="1" offset="1" sl="38" sc="13" el="38" ec="37" />
+                <SequencePoint vc="1" uspid="244" ordinal="2" offset="13" sl="40" sc="13" el="40" ec="65" />
+                <SequencePoint vc="1" uspid="245" ordinal="3" offset="46" sl="41" sc="9" el="41" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="242" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663360</MetadataToken>
+              <Name>System.Void ExcelSharpTests.WorkbookTests::Workbook_RemoveSheet_RemovesSheetAtEnd()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="246" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" />
+                <SequencePoint vc="1" uspid="247" ordinal="1" offset="1" sl="46" sc="13" el="46" ec="37" />
+                <SequencePoint vc="1" uspid="248" ordinal="2" offset="13" sl="47" sc="13" el="47" ec="40" />
+                <SequencePoint vc="1" uspid="249" ordinal="3" offset="25" sl="49" sc="13" el="49" ec="65" />
+                <SequencePoint vc="1" uspid="250" ordinal="4" offset="58" sl="50" sc="9" el="50" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="246" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663361</MetadataToken>
+              <Name>System.Void ExcelSharpTests.WorkbookTests::Workbook_SelectSheet_SetsActiveSheet()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="251" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="10" />
+                <SequencePoint vc="1" uspid="252" ordinal="1" offset="1" sl="55" sc="13" el="55" ec="41" />
+                <SequencePoint vc="1" uspid="253" ordinal="2" offset="14" sl="57" sc="13" el="57" ec="86" />
+                <SequencePoint vc="1" uspid="254" ordinal="3" offset="53" sl="58" sc="9" el="58" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="251" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663362</MetadataToken>
+              <Name>System.Void ExcelSharpTests.WorkbookTests::Workbook_GetSheet_ReturnsSheet()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="255" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" />
+                <SequencePoint vc="1" uspid="256" ordinal="1" offset="1" sl="63" sc="13" el="63" ec="56" />
+                <SequencePoint vc="1" uspid="257" ordinal="2" offset="14" sl="64" sc="13" el="64" ec="57" />
+                <SequencePoint vc="1" uspid="258" ordinal="3" offset="42" sl="65" sc="9" el="65" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="255" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663363</MetadataToken>
+              <Name>ExcelSharp.Workbook ExcelSharpTests.WorkbookTests::initTestWorkbook()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="259" ordinal="0" offset="0" sl="68" sc="9" el="68" ec="10" />
+                <SequencePoint vc="1" uspid="260" ordinal="1" offset="1" sl="69" sc="13" el="69" ec="56" />
+                <SequencePoint vc="1" uspid="261" ordinal="2" offset="7" sl="70" sc="13" el="70" ec="70" />
+                <SequencePoint vc="1" uspid="262" ordinal="3" offset="13" sl="71" sc="13" el="71" ec="92" />
+                <SequencePoint vc="1" uspid="263" ordinal="4" offset="32" sl="72" sc="13" el="72" ec="33" />
+                <SequencePoint vc="1" uspid="264" ordinal="5" offset="36" sl="73" sc="9" el="73" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="259" ordinal="0" offset="0" sl="68" sc="9" el="68" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663364</MetadataToken>
+              <Name>System.Void ExcelSharpTests.WorkbookTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="265" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="42-83-FE-A6-9F-01-8E-2C-E8-41-E9-25-3E-1E-0D-99-81-76-6B-C9">
+      <FullName>C:\Users\jpinkard\AppData\Local\Temp\nunit20\ShadowCopyCache\14028_635452699811893405\Tests_30107256\assembly\dl3\069add61\dabac443_d1c6cf01\nunit.framework.dll</FullName>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-C4-E5-DE-F3-EE-AD-84-E1-65-84-CC-15-90-76-96-E7-01-44-4E">
+      <FullName>C:\Users\jpinkard\Documents\GitHub\Support_Packages\NUnit.Runners.2.6.3\tools\lib\nunit-console-runner.dll</FullName>
+      <ModuleName>nunit-console-runner</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="65-BE-6B-9B-9C-55-6A-4D-DB-BD-03-60-FD-69-20-48-31-78-A9-5B">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-6E-E8-4F-40-6A-75-31-1B-08-C2-22-D5-EA-FE-23-3B-7B-82-15">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-28-A3-E7-4F-05-75-91-3B-B4-A6-B7-58-E7-27-B0-EF-F7-52-11">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="66-69-0F-28-97-60-27-BC-BA-49-BF-AC-21-73-81-11-3F-01-1B-B3">
+      <Summary numSequencePoints="267" visitedSequencePoints="223" numBranchPoints="76" visitedBranchPoints="60" sequenceCoverage="83.52" branchCoverage="78.95" maxCyclomaticComplexity="3" minCyclomaticComplexity="0" />
+      <FullName>C:\Users\jpinkard\AppData\Local\Temp\nunit20\ShadowCopyCache\14028_635452699811893405\Tests_30107256\assembly\dl3\23b9197e\30de9034_c4c6cf01\ExcelSharp.dll</FullName>
+      <ModuleName>ExcelSharp</ModuleName>
+      <Files>
+        <File uid="17" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\SheetFactory.cs" />
+        <File uid="18" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\LinkSheetFactory.cs" />
+        <File uid="19" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\SheetTool.cs" />
+        <File uid="20" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\SheetWriter.cs" />
+        <File uid="21" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\Sheet.cs" />
+        <File uid="22" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\ReadOnlySheet.cs" />
+        <File uid="23" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\ExcelOperator.cs" />
+        <File uid="24" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\AbstractTableWriter.cs" />
+        <File uid="26" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\TableSheetFactory.cs" />
+        <File uid="27" fullPath="c:\Users\jpinkard\Documents\GitHub\SolutionsForWork\FileLinkTracker\ExcelLinker\Workbook.cs" />
+      </Files>
+      <Classes>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="32" visitedSequencePoints="32" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.SheetFactory</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>ExcelSharp.Sheet ExcelSharp.SheetFactory::get_SourceSheet()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="266" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetFactory::set_SourceSheet(ExcelSharp.Sheet)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="267" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetFactory::.ctor(ExcelSharp.Workbook)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="14" uspid="268" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="47" />
+                <SequencePoint vc="14" uspid="269" ordinal="1" offset="7" sl="17" sc="9" el="17" ec="10" />
+                <SequencePoint vc="14" uspid="270" ordinal="2" offset="8" sl="18" sc="13" el="18" ec="38" />
+                <SequencePoint vc="14" uspid="271" ordinal="3" offset="15" sl="19" sc="9" el="19" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="14" uspid="268" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetFactory::ExecuteWithWorkbook()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="272" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" />
+                <SequencePoint vc="7" uspid="273" ordinal="1" offset="1" sl="26" sc="13" el="26" ec="33" />
+                <SequencePoint vc="7" uspid="274" ordinal="2" offset="8" sl="28" sc="13" el="28" ec="45" />
+                <SequencePoint vc="7" uspid="275" ordinal="3" offset="15" sl="30" sc="13" el="30" ec="41" />
+                <SequencePoint vc="7" uspid="276" ordinal="4" offset="23" sl="31" sc="9" el="31" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="272" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetFactory::ExecuteWithSheet()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="277" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="10" />
+                <SequencePoint vc="7" uspid="278" ordinal="1" offset="1" sl="34" sc="13" el="34" ec="33" />
+                <SequencePoint vc="7" uspid="279" ordinal="2" offset="8" sl="36" sc="13" el="36" ec="43" />
+                <SequencePoint vc="7" uspid="280" ordinal="3" offset="15" sl="38" sc="13" el="38" ec="42" />
+                <SequencePoint vc="7" uspid="281" ordinal="4" offset="23" sl="39" sc="9" el="39" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="277" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetFactory::MakeSheetUtilites()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="14" uspid="282" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" />
+                <SequencePoint vc="14" uspid="283" ordinal="1" offset="1" sl="44" sc="13" el="44" ec="45" />
+                <SequencePoint vc="14" uspid="284" ordinal="2" offset="13" sl="45" sc="13" el="45" ec="43" />
+                <SequencePoint vc="14" uspid="285" ordinal="3" offset="25" sl="46" sc="9" el="46" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="14" uspid="282" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>ExcelSharp.Sheet ExcelSharp.SheetFactory::CopySheet()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="286" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" />
+                <SequencePoint vc="7" uspid="287" ordinal="1" offset="1" sl="49" sc="13" el="49" ec="45" />
+                <SequencePoint vc="7" uspid="288" ordinal="2" offset="19" sl="50" sc="13" el="50" ec="59" />
+                <SequencePoint vc="7" uspid="289" ordinal="3" offset="31" sl="51" sc="13" el="51" ec="30" />
+                <SequencePoint vc="7" uspid="290" ordinal="4" offset="35" sl="52" sc="9" el="52" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="286" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>ExcelSharp.Sheet ExcelSharp.SheetFactory::MakeNewSheet()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="291" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="10" />
+                <SequencePoint vc="7" uspid="292" ordinal="1" offset="1" sl="55" sc="13" el="55" ec="33" />
+                <SequencePoint vc="7" uspid="293" ordinal="2" offset="13" sl="56" sc="13" el="56" ec="58" />
+                <SequencePoint vc="7" uspid="294" ordinal="3" offset="25" sl="57" sc="13" el="57" ec="29" />
+                <SequencePoint vc="7" uspid="295" ordinal="4" offset="29" sl="58" sc="9" el="58" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="291" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetFactory::SetSheetUtilities(ExcelSharp.Sheet)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="14" uspid="296" ordinal="0" offset="0" sl="60" sc="9" el="60" ec="10" />
+                <SequencePoint vc="14" uspid="297" ordinal="1" offset="1" sl="62" sc="13" el="62" ec="43" />
+                <SequencePoint vc="14" uspid="298" ordinal="2" offset="14" sl="63" sc="13" el="63" ec="41" />
+                <SequencePoint vc="14" uspid="299" ordinal="3" offset="27" sl="64" sc="9" el="64" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="14" uspid="296" ordinal="0" offset="0" sl="60" sc="9" el="60" ec="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.LinkSheetFactory</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void ExcelSharp.LinkSheetFactory::.ctor(ExcelSharp.Workbook)</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="300" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="69" />
+                <SequencePoint vc="7" uspid="301" ordinal="1" offset="8" sl="11" sc="9" el="11" ec="10" />
+                <SequencePoint vc="7" uspid="302" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="300" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="69" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>ExcelSharp.ISheetWriter ExcelSharp.LinkSheetFactory::MakeSheetWriter()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="303" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" />
+                <SequencePoint vc="7" uspid="304" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="64" />
+                <SequencePoint vc="7" uspid="305" ordinal="2" offset="7" sl="18" sc="13" el="18" ec="31" />
+                <SequencePoint vc="7" uspid="306" ordinal="3" offset="11" sl="19" sc="9" el="19" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="303" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>ExcelSharp.ISheetTool ExcelSharp.LinkSheetFactory::MakeSheetTools()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="307" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" />
+                <SequencePoint vc="7" uspid="308" ordinal="1" offset="1" sl="23" sc="13" el="23" ec="58" />
+                <SequencePoint vc="7" uspid="309" ordinal="2" offset="7" sl="24" sc="13" el="24" ec="29" />
+                <SequencePoint vc="7" uspid="310" ordinal="3" offset="11" sl="25" sc="9" el="25" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="307" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.SheetTool</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetTool::Create()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="311" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" />
+                <SequencePoint vc="0" uspid="312" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="49" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="311" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetTool::Format()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="313" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" />
+                <SequencePoint vc="0" uspid="314" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="49" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="313" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetTool::Remove()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="315" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" />
+                <SequencePoint vc="0" uspid="316" ordinal="1" offset="1" sl="23" sc="13" el="23" ec="49" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="315" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetTool::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="14" uspid="317" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.LinkSheetTool</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void ExcelSharp.LinkSheetTool::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="318" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.SheetWriter</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetWriter::WriteFields()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="319" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" />
+                <SequencePoint vc="0" uspid="320" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="49" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="319" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetWriter::WriteBody()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="321" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" />
+                <SequencePoint vc="0" uspid="322" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="49" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="321" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void ExcelSharp.SheetWriter::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="14" uspid="323" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.LinkSheetWriter</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void ExcelSharp.LinkSheetWriter::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="324" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="74" visitedSequencePoints="64" numBranchPoints="24" visitedBranchPoints="22" sequenceCoverage="86.49" branchCoverage="91.67" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.Sheet</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Int32 ExcelSharp.Sheet::get_Index()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="325" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::set_Index(System.Int32)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="22" uspid="326" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.String ExcelSharp.Sheet::get_Name()</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="327" ordinal="0" offset="0" sl="17" sc="34" el="17" ec="35" />
+                <SequencePoint vc="1" uspid="328" ordinal="1" offset="1" sl="17" sc="36" el="17" ec="58" />
+                <SequencePoint vc="1" uspid="329" ordinal="2" offset="15" sl="17" sc="59" el="17" ec="60" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="327" ordinal="0" offset="0" sl="17" sc="34" el="17" ec="35" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>ExcelSharp.ISheetWriter ExcelSharp.Sheet::get_Writer()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="6" uspid="330" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::set_Writer(ExcelSharp.ISheetWriter)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="14" uspid="331" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>ExcelSharp.ISheetTool ExcelSharp.Sheet::get_Tools()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="6" uspid="332" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::set_Tools(ExcelSharp.ISheetTool)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="14" uspid="333" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663344</MetadataToken>
+              <Name>System.String ExcelSharp.Sheet::get_wbPath()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="334" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663345</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::set_wbPath(System.String)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="335" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::.ctor(Microsoft.Office.Interop.Excel._Worksheet)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="22" uspid="336" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="50" />
+                <SequencePoint vc="22" uspid="337" ordinal="1" offset="7" sl="23" sc="9" el="23" ec="10" />
+                <SequencePoint vc="22" uspid="338" ordinal="2" offset="8" sl="24" sc="13" el="24" ec="40" />
+                <SequencePoint vc="22" uspid="339" ordinal="3" offset="15" sl="25" sc="9" el="25" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="22" uspid="336" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="50" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::DeleteSheet()</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="340" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" />
+                <SequencePoint vc="0" uspid="341" ordinal="1" offset="1" sl="29" sc="13" el="29" ec="28" />
+                <SequencePoint vc="0" uspid="342" ordinal="2" offset="9" sl="30" sc="13" el="30" ec="32" />
+                <SequencePoint vc="0" uspid="343" ordinal="3" offset="17" sl="31" sc="13" el="31" ec="31" />
+                <SequencePoint vc="0" uspid="344" ordinal="4" offset="25" sl="32" sc="13" el="32" ec="37" />
+                <SequencePoint vc="0" uspid="345" ordinal="5" offset="37" sl="33" sc="13" el="33" ec="35" />
+                <SequencePoint vc="0" uspid="346" ordinal="6" offset="44" sl="34" sc="9" el="34" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="340" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.String[0...,0...] ExcelSharp.Sheet::GetCells(System.Int32,System.Int32)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="347" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" />
+                <SequencePoint vc="1" uspid="348" ordinal="1" offset="1" sl="49" sc="13" el="49" ec="34" />
+                <SequencePoint vc="1" uspid="349" ordinal="2" offset="13" sl="50" sc="13" el="50" ec="65" />
+                <SequencePoint vc="1" uspid="350" ordinal="3" offset="35" sl="51" sc="13" el="51" ec="36" />
+                <SequencePoint vc="1" uspid="351" ordinal="4" offset="42" sl="52" sc="13" el="52" ec="61" />
+                <SequencePoint vc="1" uspid="352" ordinal="5" offset="50" sl="53" sc="13" el="53" ec="55" />
+                <SequencePoint vc="1" uspid="353" ordinal="6" offset="60" sl="54" sc="13" el="54" ec="30" />
+                <SequencePoint vc="1" uspid="354" ordinal="7" offset="64" sl="55" sc="9" el="55" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="347" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::assignCellArray(System.Int32,System.Int32,System.String[0...,0...])</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="355" ordinal="0" offset="0" sl="58" sc="9" el="58" ec="10" />
+                <SequencePoint vc="1" uspid="356" ordinal="1" offset="1" sl="59" sc="18" el="59" ec="28" />
+                <SequencePoint vc="1" uspid="357" ordinal="2" offset="5" sl="60" sc="13" el="60" ec="14" />
+                <SequencePoint vc="1" uspid="358" ordinal="3" offset="6" sl="61" sc="17" el="61" ec="51" />
+                <SequencePoint vc="1" uspid="359" ordinal="4" offset="16" sl="62" sc="13" el="62" ec="14" />
+                <SequencePoint vc="1" uspid="360" ordinal="5" offset="17" sl="59" sc="39" el="59" ec="42" />
+                <SequencePoint vc="2" uspid="361" ordinal="6" offset="21" sl="59" sc="29" el="59" ec="37" />
+                <SequencePoint vc="1" uspid="362" ordinal="7" offset="29" sl="63" sc="9" el="63" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="363" ordinal="0" offset="27" path="0" />
+                <BranchPoint vc="1" uspid="364" ordinal="1" offset="27" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="355" ordinal="0" offset="0" sl="58" sc="9" el="58" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::assignRows(System.Int32,System.String[0...,0...],System.Int32)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="365" ordinal="0" offset="0" sl="66" sc="9" el="66" ec="10" />
+                <SequencePoint vc="1" uspid="366" ordinal="1" offset="1" sl="67" sc="18" el="67" ec="28" />
+                <SequencePoint vc="3" uspid="367" ordinal="2" offset="5" sl="68" sc="13" el="68" ec="14" />
+                <SequencePoint vc="3" uspid="368" ordinal="3" offset="6" sl="69" sc="17" el="69" ec="45" />
+                <SequencePoint vc="3" uspid="369" ordinal="4" offset="16" sl="70" sc="13" el="70" ec="14" />
+                <SequencePoint vc="3" uspid="370" ordinal="5" offset="17" sl="67" sc="42" el="67" ec="45" />
+                <SequencePoint vc="4" uspid="371" ordinal="6" offset="21" sl="67" sc="29" el="67" ec="40" />
+                <SequencePoint vc="1" uspid="372" ordinal="7" offset="29" sl="71" sc="9" el="71" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="373" ordinal="0" offset="27" path="0" />
+                <BranchPoint vc="3" uspid="374" ordinal="1" offset="27" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="365" ordinal="0" offset="0" sl="66" sc="9" el="66" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" />
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::assignCell(System.String[0...,0...],System.Int32,System.Int32)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="15" uspid="375" ordinal="0" offset="0" sl="74" sc="9" el="74" ec="10" />
+                <SequencePoint vc="15" uspid="376" ordinal="1" offset="1" sl="75" sc="13" el="75" ec="80" />
+                <SequencePoint vc="15" uspid="377" ordinal="2" offset="185" sl="76" sc="9" el="76" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="378" ordinal="0" offset="9" path="0" />
+                <BranchPoint vc="14" uspid="379" ordinal="1" offset="9" path="1" />
+                <BranchPoint vc="1" uspid="380" ordinal="2" offset="70" path="0" />
+                <BranchPoint vc="14" uspid="381" ordinal="3" offset="70" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="15" uspid="375" ordinal="0" offset="0" sl="74" sc="9" el="74" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.String[0...,0...] ExcelSharp.Sheet::GetRange(System.String,System.String)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="382" ordinal="0" offset="0" sl="81" sc="9" el="81" ec="10" />
+                <SequencePoint vc="1" uspid="383" ordinal="1" offset="1" sl="82" sc="13" el="82" ec="34" />
+                <SequencePoint vc="1" uspid="384" ordinal="2" offset="13" sl="83" sc="13" el="83" ec="70" />
+                <SequencePoint vc="1" uspid="385" ordinal="3" offset="31" sl="84" sc="13" el="84" ec="36" />
+                <SequencePoint vc="1" uspid="386" ordinal="4" offset="38" sl="85" sc="13" el="85" ec="68" />
+                <SequencePoint vc="1" uspid="387" ordinal="5" offset="47" sl="86" sc="13" el="86" ec="40" />
+                <SequencePoint vc="1" uspid="388" ordinal="6" offset="55" sl="87" sc="13" el="87" ec="30" />
+                <SequencePoint vc="1" uspid="389" ordinal="7" offset="59" sl="88" sc="9" el="88" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="382" ordinal="0" offset="0" sl="81" sc="9" el="81" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::assignCellBlock(System.String[0...,0...])</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="390" ordinal="0" offset="0" sl="92" sc="9" el="92" ec="10" />
+                <SequencePoint vc="1" uspid="391" ordinal="1" offset="1" sl="93" sc="18" el="93" ec="47" />
+                <SequencePoint vc="4" uspid="392" ordinal="2" offset="17" sl="94" sc="13" el="94" ec="14" />
+                <SequencePoint vc="4" uspid="393" ordinal="3" offset="18" sl="95" sc="17" el="95" ec="49" />
+                <SequencePoint vc="4" uspid="394" ordinal="4" offset="27" sl="96" sc="13" el="96" ec="14" />
+                <SequencePoint vc="4" uspid="395" ordinal="5" offset="28" sl="93" sc="68" el="93" ec="73" />
+                <SequencePoint vc="5" uspid="396" ordinal="6" offset="32" sl="93" sc="48" el="93" ec="66" />
+                <SequencePoint vc="1" uspid="397" ordinal="7" offset="50" sl="97" sc="9" el="97" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="398" ordinal="0" offset="48" path="0" />
+                <BranchPoint vc="4" uspid="399" ordinal="1" offset="48" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="390" ordinal="0" offset="0" sl="92" sc="9" el="92" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::assignRowBlocks(System.String[0...,0...],System.Int32)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="400" ordinal="0" offset="0" sl="100" sc="9" el="100" ec="10" />
+                <SequencePoint vc="4" uspid="401" ordinal="1" offset="1" sl="101" sc="18" el="101" ec="50" />
+                <SequencePoint vc="12" uspid="402" ordinal="2" offset="17" sl="102" sc="13" el="102" ec="14" />
+                <SequencePoint vc="12" uspid="403" ordinal="3" offset="18" sl="103" sc="17" el="103" ec="49" />
+                <SequencePoint vc="12" uspid="404" ordinal="4" offset="28" sl="104" sc="13" el="104" ec="14" />
+                <SequencePoint vc="12" uspid="405" ordinal="5" offset="29" sl="101" sc="74" el="101" ec="79" />
+                <SequencePoint vc="16" uspid="406" ordinal="6" offset="33" sl="101" sc="51" el="101" ec="72" />
+                <SequencePoint vc="4" uspid="407" ordinal="7" offset="51" sl="105" sc="9" el="105" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="408" ordinal="0" offset="49" path="0" />
+                <BranchPoint vc="12" uspid="409" ordinal="1" offset="49" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="400" ordinal="0" offset="0" sl="100" sc="9" el="100" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663343</MetadataToken>
+              <Name>System.String[0...,0...] ExcelSharp.Sheet::setCellArray(System.String,System.String)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="410" ordinal="0" offset="0" sl="108" sc="9" el="108" ec="10" />
+                <SequencePoint vc="1" uspid="411" ordinal="1" offset="1" sl="109" sc="13" el="109" ec="62" />
+                <SequencePoint vc="1" uspid="412" ordinal="2" offset="24" sl="110" sc="13" el="110" ec="58" />
+                <SequencePoint vc="1" uspid="413" ordinal="3" offset="47" sl="111" sc="13" el="111" ec="122" />
+                <SequencePoint vc="1" uspid="414" ordinal="4" offset="103" sl="112" sc="13" el="112" ec="30" />
+                <SequencePoint vc="1" uspid="415" ordinal="5" offset="107" sl="113" sc="9" el="113" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="410" ordinal="0" offset="0" sl="108" sc="9" el="108" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.Void ExcelSharp.Sheet::ClearCells()</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="416" ordinal="0" offset="0" sl="119" sc="9" el="119" ec="10" />
+                <SequencePoint vc="0" uspid="417" ordinal="1" offset="1" sl="120" sc="13" el="120" ec="37" />
+                <SequencePoint vc="0" uspid="418" ordinal="2" offset="18" sl="121" sc="9" el="121" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="416" ordinal="0" offset="0" sl="119" sc="9" el="119" ec="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" />
+          <FullName>ExcelSharp.Sheet/&lt;assignCell&gt;o__SiteContainer0</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.ReadOnlySheet</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663347</MetadataToken>
+              <Name>System.Void ExcelSharp.ReadOnlySheet::.ctor(Microsoft.Office.Interop.Excel._Worksheet)</Name>
+              <FileRef uid="22" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="419" ordinal="0" offset="0" sl="12" sc="9" el="13" ec="30" />
+                <SequencePoint vc="0" uspid="420" ordinal="1" offset="8" sl="14" sc="9" el="14" ec="10" />
+                <SequencePoint vc="0" uspid="421" ordinal="2" offset="9" sl="16" sc="9" el="16" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="419" ordinal="0" offset="0" sl="12" sc="9" el="13" ec="30" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="47" visitedSequencePoints="35" numBranchPoints="9" visitedBranchPoints="8" sequenceCoverage="74.47" branchCoverage="88.89" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.ExcelOperator</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663348</MetadataToken>
+              <Name>System.Boolean ExcelSharp.ExcelOperator::get_isExcelOpen()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="422" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Void ExcelSharp.ExcelOperator::set_isExcelOpen(System.Boolean)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="24" uspid="423" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663350</MetadataToken>
+              <Name>System.Int32 ExcelSharp.ExcelOperator::get_WorkbookCount()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="424" ordinal="0" offset="0" sl="18" sc="17" el="18" ec="18" />
+                <SequencePoint vc="1" uspid="425" ordinal="1" offset="1" sl="18" sc="19" el="18" ec="46" />
+                <SequencePoint vc="1" uspid="426" ordinal="2" offset="19" sl="18" sc="47" el="18" ec="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="424" ordinal="0" offset="0" sl="18" sc="17" el="18" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <MetadataToken>100663351</MetadataToken>
+              <Name>ExcelSharp.Workbook ExcelSharp.ExcelOperator::OpenWorkbook(System.String)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="427" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" />
+                <SequencePoint vc="6" uspid="428" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="30" />
+                <SequencePoint vc="5" uspid="429" ordinal="2" offset="9" sl="25" sc="13" el="25" ec="14" />
+                <SequencePoint vc="5" uspid="430" ordinal="3" offset="10" sl="26" sc="17" el="26" ec="55" />
+                <SequencePoint vc="5" uspid="431" ordinal="4" offset="102" sl="27" sc="17" el="27" ec="63" />
+                <SequencePoint vc="5" uspid="432" ordinal="5" offset="114" sl="28" sc="17" el="28" ec="34" />
+                <SequencePoint vc="1" uspid="433" ordinal="6" offset="118" sl="32" sc="13" el="32" ec="14" />
+                <SequencePoint vc="1" uspid="434" ordinal="7" offset="119" sl="33" sc="17" el="33" ec="82" />
+                <SequencePoint vc="1" uspid="435" ordinal="8" offset="145" sl="34" sc="17" el="34" ec="63" />
+                <SequencePoint vc="1" uspid="436" ordinal="9" offset="157" sl="35" sc="17" el="35" ec="34" />
+                <SequencePoint vc="6" uspid="437" ordinal="10" offset="161" sl="37" sc="9" el="37" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="5" uspid="438" ordinal="0" offset="7" path="0" />
+                <BranchPoint vc="1" uspid="439" ordinal="1" offset="7" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="427" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663352</MetadataToken>
+              <Name>System.Void ExcelSharp.ExcelOperator::.ctor()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="440" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="31" />
+                <SequencePoint vc="8" uspid="441" ordinal="1" offset="7" sl="40" sc="9" el="40" ec="10" />
+                <SequencePoint vc="8" uspid="442" ordinal="2" offset="8" sl="41" sc="13" el="41" ec="33" />
+                <SequencePoint vc="8" uspid="443" ordinal="3" offset="16" sl="42" sc="9" el="42" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="440" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="31" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="46.67" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="46.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663353</MetadataToken>
+              <Name>System.Void ExcelSharp.ExcelOperator::InitializeExcel()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="444" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" />
+                <SequencePoint vc="8" uspid="445" ordinal="1" offset="1" sl="47" sc="13" el="47" ec="14" />
+                <SequencePoint vc="8" uspid="446" ordinal="2" offset="2" sl="49" sc="17" el="49" ec="47" />
+                <SequencePoint vc="8" uspid="447" ordinal="3" offset="32" sl="50" sc="17" el="50" ec="37" />
+                <SequencePoint vc="8" uspid="448" ordinal="4" offset="44" sl="51" sc="17" el="51" ec="36" />
+                <SequencePoint vc="8" uspid="449" ordinal="5" offset="52" sl="52" sc="13" el="52" ec="14" />
+                <SequencePoint vc="0" uspid="450" ordinal="6" offset="55" sl="54" sc="13" el="54" ec="43" />
+                <SequencePoint vc="0" uspid="451" ordinal="7" offset="56" sl="55" sc="13" el="55" ec="14" />
+                <SequencePoint vc="0" uspid="452" ordinal="8" offset="57" sl="57" sc="17" el="57" ec="42" />
+                <SequencePoint vc="0" uspid="453" ordinal="9" offset="63" sl="58" sc="17" el="58" ec="82" />
+                <SequencePoint vc="0" uspid="454" ordinal="10" offset="76" sl="59" sc="17" el="59" ec="71" />
+                <SequencePoint vc="0" uspid="455" ordinal="11" offset="88" sl="60" sc="17" el="60" ec="81" />
+                <SequencePoint vc="0" uspid="456" ordinal="12" offset="101" sl="62" sc="17" el="62" ec="49" />
+                <SequencePoint vc="0" uspid="457" ordinal="13" offset="108" sl="63" sc="13" el="63" ec="14" />
+                <SequencePoint vc="8" uspid="458" ordinal="14" offset="112" sl="64" sc="9" el="64" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="444" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663354</MetadataToken>
+              <Name>System.Void ExcelSharp.ExcelOperator::CloseExcel()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="459" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" />
+                <SequencePoint vc="8" uspid="460" ordinal="1" offset="1" sl="68" sc="13" el="68" ec="24" />
+                <SequencePoint vc="8" uspid="461" ordinal="2" offset="12" sl="69" sc="13" el="69" ec="33" />
+                <SequencePoint vc="8" uspid="462" ordinal="3" offset="20" sl="70" sc="9" el="70" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="459" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663355</MetadataToken>
+              <Name>System.Void ExcelSharp.ExcelOperator::CloseWorkbook()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="463" ordinal="0" offset="0" sl="73" sc="9" el="73" ec="10" />
+                <SequencePoint vc="5" uspid="464" ordinal="1" offset="1" sl="74" sc="13" el="74" ec="32" />
+                <SequencePoint vc="5" uspid="465" ordinal="2" offset="13" sl="75" sc="13" el="75" ec="39" />
+                <SequencePoint vc="5" uspid="466" ordinal="3" offset="25" sl="76" sc="13" el="76" ec="35" />
+                <SequencePoint vc="5" uspid="467" ordinal="4" offset="41" sl="77" sc="13" el="77" ec="33" />
+                <SequencePoint vc="5" uspid="468" ordinal="5" offset="53" sl="78" sc="9" el="78" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="463" ordinal="0" offset="0" sl="73" sc="9" el="73" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663356</MetadataToken>
+              <Name>System.Void ExcelSharp.ExcelOperator::Dispose()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="469" ordinal="0" offset="0" sl="81" sc="9" el="81" ec="10" />
+                <SequencePoint vc="0" uspid="470" ordinal="1" offset="1" sl="82" sc="13" el="82" ec="29" />
+                <SequencePoint vc="0" uspid="471" ordinal="2" offset="8" sl="83" sc="13" el="83" ec="26" />
+                <SequencePoint vc="0" uspid="472" ordinal="3" offset="15" sl="84" sc="9" el="84" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="469" ordinal="0" offset="0" sl="81" sc="9" el="81" ec="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.AbstractTableWriter</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663357</MetadataToken>
+              <Name>System.Void ExcelSharp.AbstractTableWriter::WriteFields()</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="473" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" />
+                <SequencePoint vc="0" uspid="474" ordinal="1" offset="1" sl="31" sc="9" el="31" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="473" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663358</MetadataToken>
+              <Name>System.Void ExcelSharp.AbstractTableWriter::WriteBody()</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="475" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" />
+                <SequencePoint vc="0" uspid="476" ordinal="1" offset="1" sl="36" sc="9" el="36" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="475" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663359</MetadataToken>
+              <Name>System.Void ExcelSharp.AbstractTableWriter::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="477" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663360</MetadataToken>
+              <Name>System.Void ExcelSharp.AbstractTableWriter::.cctor()</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="478" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="81" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="478" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="81" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.AbstractTableWriter/NullSheetWriter</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663361</MetadataToken>
+              <Name>System.Void ExcelSharp.AbstractTableWriter/NullSheetWriter::WriteFields()</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="479" ordinal="0" offset="0" sl="18" sc="13" el="18" ec="14" />
+                <SequencePoint vc="0" uspid="480" ordinal="1" offset="1" sl="20" sc="13" el="20" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="479" ordinal="0" offset="0" sl="18" sc="13" el="18" ec="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663362</MetadataToken>
+              <Name>System.Void ExcelSharp.AbstractTableWriter/NullSheetWriter::WriteBody()</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="481" ordinal="0" offset="0" sl="23" sc="13" el="23" ec="14" />
+                <SequencePoint vc="0" uspid="482" ordinal="1" offset="1" sl="25" sc="13" el="25" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="481" ordinal="0" offset="0" sl="23" sc="13" el="23" ec="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663363</MetadataToken>
+              <Name>System.Void ExcelSharp.AbstractTableWriter/NullSheetWriter::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="483" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.TableSheetFactory</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663364</MetadataToken>
+              <Name>System.Void ExcelSharp.TableSheetFactory::.ctor(ExcelSharp.Workbook)</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="484" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="69" />
+                <SequencePoint vc="7" uspid="485" ordinal="1" offset="8" sl="10" sc="70" el="10" ec="71" />
+                <SequencePoint vc="7" uspid="486" ordinal="2" offset="9" sl="10" sc="72" el="10" ec="73" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="484" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="69" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663365</MetadataToken>
+              <Name>ExcelSharp.ISheetWriter ExcelSharp.TableSheetFactory::MakeSheetWriter()</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="487" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" />
+                <SequencePoint vc="7" uspid="488" ordinal="1" offset="1" sl="15" sc="13" el="15" ec="67" />
+                <SequencePoint vc="7" uspid="489" ordinal="2" offset="7" sl="16" sc="13" el="16" ec="32" />
+                <SequencePoint vc="7" uspid="490" ordinal="3" offset="11" sl="17" sc="9" el="17" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="487" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663366</MetadataToken>
+              <Name>ExcelSharp.ISheetTool ExcelSharp.TableSheetFactory::MakeSheetTools()</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="491" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" />
+                <SequencePoint vc="7" uspid="492" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="62" />
+                <SequencePoint vc="7" uspid="493" ordinal="2" offset="7" sl="22" sc="13" el="22" ec="31" />
+                <SequencePoint vc="7" uspid="494" ordinal="3" offset="11" sl="23" sc="9" el="23" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="491" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.TableSheetTool</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663367</MetadataToken>
+              <Name>System.Void ExcelSharp.TableSheetTool::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="495" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.TableSheetWriter</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663368</MetadataToken>
+              <Name>System.Void ExcelSharp.TableSheetWriter::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="496" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="70" visitedSequencePoints="70" numBranchPoints="19" visitedBranchPoints="17" sequenceCoverage="100" branchCoverage="89.47" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" />
+          <FullName>ExcelSharp.Workbook</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663369</MetadataToken>
+              <Name>ExcelSharp.Sheet ExcelSharp.Workbook::get_ActiveSheet()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="10" uspid="497" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663370</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::set_ActiveSheet(ExcelSharp.Sheet)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="9" uspid="498" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663371</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;ExcelSharp.Sheet&gt; ExcelSharp.Workbook::get_Sheets()</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="21" uspid="499" ordinal="0" offset="0" sl="14" sc="17" el="14" ec="18" />
+                <SequencePoint vc="21" uspid="500" ordinal="1" offset="1" sl="14" sc="19" el="14" ec="33" />
+                <SequencePoint vc="21" uspid="501" ordinal="2" offset="10" sl="14" sc="34" el="14" ec="35" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="21" uspid="499" ordinal="0" offset="0" sl="14" sc="17" el="14" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663372</MetadataToken>
+              <Name>System.Int32 ExcelSharp.Workbook::get_sheetCount()</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="38" uspid="502" ordinal="0" offset="0" sl="18" sc="17" el="18" ec="18" />
+                <SequencePoint vc="38" uspid="503" ordinal="1" offset="1" sl="18" sc="19" el="18" ec="43" />
+                <SequencePoint vc="38" uspid="504" ordinal="2" offset="20" sl="18" sc="44" el="18" ec="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="38" uspid="502" ordinal="0" offset="0" sl="18" sc="17" el="18" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663373</MetadataToken>
+              <Name>ExcelSharp.Sheet ExcelSharp.Workbook::get_RecentlyAddedSheet()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="24" uspid="505" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663374</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::set_RecentlyAddedSheet(ExcelSharp.Sheet)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="16" uspid="506" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" sequenceCoverage="100" branchCoverage="80" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="19" visitedSequencePoints="19" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="80" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" />
+              <MetadataToken>100663375</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::.ctor(Microsoft.Office.Interop.Excel._Workbook)</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="507" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="106" />
+                <SequencePoint vc="6" uspid="508" ordinal="1" offset="11" sl="24" sc="9" el="24" ec="56" />
+                <SequencePoint vc="6" uspid="509" ordinal="2" offset="22" sl="28" sc="9" el="28" ec="46" />
+                <SequencePoint vc="6" uspid="510" ordinal="3" offset="29" sl="29" sc="9" el="29" ec="10" />
+                <SequencePoint vc="6" uspid="511" ordinal="4" offset="30" sl="30" sc="13" el="30" ec="28" />
+                <SequencePoint vc="6" uspid="512" ordinal="5" offset="37" sl="31" sc="13" el="31" ec="46" />
+                <SequencePoint vc="6" uspid="513" ordinal="6" offset="49" sl="32" sc="13" el="32" ec="20" />
+                <SequencePoint vc="6" uspid="514" ordinal="7" offset="50" sl="32" sc="58" el="32" ec="72" />
+                <SequencePoint vc="6" uspid="515" ordinal="8" offset="64" sl="32" sc="22" el="32" ec="54" />
+                <SequencePoint vc="6" uspid="516" ordinal="9" offset="76" sl="33" sc="13" el="33" ec="14" />
+                <SequencePoint vc="6" uspid="517" ordinal="10" offset="77" sl="34" sc="17" el="34" ec="35" />
+                <SequencePoint vc="6" uspid="518" ordinal="11" offset="91" sl="35" sc="17" el="35" ec="64" />
+                <SequencePoint vc="6" uspid="519" ordinal="12" offset="98" sl="36" sc="17" el="36" ec="39" />
+                <SequencePoint vc="6" uspid="520" ordinal="13" offset="106" sl="37" sc="17" el="37" ec="41" />
+                <SequencePoint vc="6" uspid="521" ordinal="14" offset="119" sl="38" sc="17" el="38" ec="58" />
+                <SequencePoint vc="6" uspid="522" ordinal="15" offset="133" sl="39" sc="13" el="39" ec="14" />
+                <SequencePoint vc="12" uspid="523" ordinal="16" offset="134" sl="32" sc="55" el="32" ec="57" />
+                <SequencePoint vc="6" uspid="524" ordinal="17" offset="173" sl="40" sc="13" el="40" ec="42" />
+                <SequencePoint vc="6" uspid="525" ordinal="18" offset="192" sl="41" sc="9" el="41" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="6" uspid="526" ordinal="0" offset="142" path="0" />
+                <BranchPoint vc="6" uspid="527" ordinal="1" offset="142" path="1" />
+                <BranchPoint vc="0" uspid="528" ordinal="2" offset="161" path="0" />
+                <BranchPoint vc="6" uspid="529" ordinal="3" offset="161" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="507" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="106" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663376</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::AddSheet()</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="530" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" />
+                <SequencePoint vc="9" uspid="531" ordinal="1" offset="1" sl="45" sc="13" el="45" ec="31" />
+                <SequencePoint vc="9" uspid="532" ordinal="2" offset="15" sl="46" sc="13" el="46" ec="34" />
+                <SequencePoint vc="9" uspid="533" ordinal="3" offset="47" sl="48" sc="13" el="48" ec="49" />
+                <SequencePoint vc="9" uspid="534" ordinal="4" offset="54" sl="49" sc="13" el="49" ec="36" />
+                <SequencePoint vc="9" uspid="535" ordinal="5" offset="62" sl="50" sc="9" el="50" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="530" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="66.67" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <MetadataToken>100663377</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::RemoveSheet()</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="536" ordinal="0" offset="0" sl="52" sc="9" el="52" ec="10" />
+                <SequencePoint vc="1" uspid="537" ordinal="1" offset="1" sl="53" sc="13" el="53" ec="31" />
+                <SequencePoint vc="1" uspid="538" ordinal="2" offset="15" sl="54" sc="13" el="54" ec="57" />
+                <SequencePoint vc="1" uspid="539" ordinal="3" offset="35" sl="55" sc="13" el="55" ec="74" />
+                <SequencePoint vc="1" uspid="540" ordinal="4" offset="130" sl="57" sc="13" el="57" ec="32" />
+                <SequencePoint vc="1" uspid="541" ordinal="5" offset="137" sl="58" sc="13" el="58" ec="41" />
+                <SequencePoint vc="1" uspid="542" ordinal="6" offset="150" sl="59" sc="13" el="59" ec="44" />
+                <SequencePoint vc="1" uspid="543" ordinal="7" offset="163" sl="60" sc="9" el="60" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="544" ordinal="0" offset="40" path="0" />
+                <BranchPoint vc="0" uspid="545" ordinal="1" offset="40" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="536" ordinal="0" offset="0" sl="52" sc="9" el="52" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663378</MetadataToken>
+              <Name>ExcelSharp.Sheet ExcelSharp.Workbook::GetSheet(System.Int32)</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="546" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" />
+                <SequencePoint vc="3" uspid="547" ordinal="1" offset="1" sl="63" sc="13" el="63" ec="56" />
+                <SequencePoint vc="3" uspid="548" ordinal="2" offset="16" sl="64" sc="13" el="64" ec="32" />
+                <SequencePoint vc="3" uspid="549" ordinal="3" offset="20" sl="65" sc="9" el="65" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="546" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663379</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::SelectSheet(System.Int32)</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="550" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" />
+                <SequencePoint vc="3" uspid="551" ordinal="1" offset="1" sl="68" sc="13" el="68" ec="51" />
+                <SequencePoint vc="3" uspid="552" ordinal="2" offset="22" sl="69" sc="13" el="69" ec="67" />
+                <SequencePoint vc="3" uspid="553" ordinal="3" offset="40" sl="70" sc="13" el="70" ec="36" />
+                <SequencePoint vc="3" uspid="554" ordinal="4" offset="47" sl="71" sc="9" el="71" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="550" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663380</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::CopySheet(ExcelSharp.Sheet)</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="555" ordinal="0" offset="0" sl="73" sc="9" el="73" ec="10" />
+                <SequencePoint vc="7" uspid="556" ordinal="1" offset="1" sl="74" sc="13" el="74" ec="64" />
+                <SequencePoint vc="7" uspid="557" ordinal="2" offset="14" sl="75" sc="13" el="75" ec="55" />
+                <SequencePoint vc="7" uspid="558" ordinal="3" offset="21" sl="76" sc="13" el="76" ec="31" />
+                <SequencePoint vc="7" uspid="559" ordinal="4" offset="35" sl="79" sc="13" el="79" ec="48" />
+                <SequencePoint vc="7" uspid="560" ordinal="5" offset="48" sl="81" sc="13" el="81" ec="56" />
+                <SequencePoint vc="7" uspid="561" ordinal="6" offset="55" sl="82" sc="13" el="82" ec="43" />
+                <SequencePoint vc="7" uspid="562" ordinal="7" offset="63" sl="83" sc="9" el="83" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="555" ordinal="0" offset="0" sl="73" sc="9" el="73" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" />
+              <MetadataToken>100663381</MetadataToken>
+              <Name>Microsoft.Office.Interop.Excel._Worksheet ExcelSharp.Workbook::getEndSheet()</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="23" uspid="563" ordinal="0" offset="0" sl="86" sc="9" el="86" ec="10" />
+                <SequencePoint vc="23" uspid="564" ordinal="1" offset="1" sl="87" sc="13" el="87" ec="62" />
+                <SequencePoint vc="23" uspid="565" ordinal="2" offset="89" sl="88" sc="13" el="88" ec="23" />
+                <SequencePoint vc="23" uspid="566" ordinal="3" offset="93" sl="89" sc="9" el="89" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="567" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="22" uspid="568" ordinal="1" offset="6" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="563" ordinal="0" offset="0" sl="86" sc="9" el="86" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663382</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::initializeNewSheet(Microsoft.Office.Interop.Excel._Worksheet)</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="16" uspid="569" ordinal="0" offset="0" sl="91" sc="9" el="91" ec="10" />
+                <SequencePoint vc="16" uspid="570" ordinal="1" offset="1" sl="92" sc="13" el="92" ec="46" />
+                <SequencePoint vc="16" uspid="571" ordinal="2" offset="8" sl="93" sc="13" el="93" ec="34" />
+                <SequencePoint vc="16" uspid="572" ordinal="3" offset="16" sl="94" sc="13" el="94" ec="36" />
+                <SequencePoint vc="16" uspid="573" ordinal="4" offset="29" sl="95" sc="13" el="95" ec="40" />
+                <SequencePoint vc="16" uspid="574" ordinal="5" offset="43" sl="96" sc="13" el="96" ec="45" />
+                <SequencePoint vc="16" uspid="575" ordinal="6" offset="51" sl="97" sc="9" el="97" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="16" uspid="569" ordinal="0" offset="0" sl="91" sc="9" el="91" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663383</MetadataToken>
+              <Name>System.Void ExcelSharp.Workbook::setIndex(ExcelSharp.Sheet)</Name>
+              <FileRef uid="27" />
+              <SequencePoints>
+                <SequencePoint vc="22" uspid="576" ordinal="0" offset="0" sl="99" sc="9" el="99" ec="10" />
+                <SequencePoint vc="22" uspid="577" ordinal="1" offset="1" sl="100" sc="13" el="100" ec="45" />
+                <SequencePoint vc="22" uspid="578" ordinal="2" offset="14" sl="101" sc="9" el="101" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="22" uspid="576" ordinal="0" offset="0" sl="99" sc="9" el="99" ec="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" />
+          <FullName>ExcelSharp.Workbook/&lt;RemoveSheet&gt;o__SiteContainer0</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" />
+          <FullName>ExcelSharp.Workbook/&lt;getEndSheet&gt;o__SiteContainer2</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="49-4C-99-95-D5-B9-E2-90-F1-76-7A-91-3E-63-2D-12-72-3F-0E-F6">
+      <FullName>C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</FullName>
+      <ModuleName>Microsoft.Office.Interop.Excel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="57-E0-D3-17-E5-11-C8-EB-68-51-D2-CD-F9-92-7F-DE-7E-81-96-2A">
+      <FullName>C:\Windows\assembly\GAC_MSIL\office\15.0.0.0__71e9bce111e9429c\office.dll</FullName>
+      <ModuleName>office</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="42-C0-89-24-69-0F-E5-FE-0B-B2-F7-DF-E6-C9-F2-C4-12-88-53-05">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_32\CustomMarshalers\v4.0_4.0.0.0__b03f5f7f11d50a3a\CustomMarshalers.dll</FullName>
+      <ModuleName>CustomMarshalers</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F0-AC-29-46-F9-CE-FF-96-AE-EE-4F-C0-DE-9E-59-D3-7E-1B-ED-08">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</FullName>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A5-A7-20-12-87-C4-5A-E5-08-10-C1-D7-7B-B5-AB-F9-0F-A6-71-CD">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll</FullName>
+      <ModuleName>Microsoft.CSharp</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="95-70-8D-C9-D5-9B-AC-21-EE-5B-99-F8-4F-25-4B-94-26-69-4A-3B">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Dynamic\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Dynamic.dll</FullName>
+      <ModuleName>System.Dynamic</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <FullName>RefEmit_InMemoryManifestModule</FullName>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <FullName>RefEmit_InMemoryManifestModule</FullName>
+      <ModuleName>System.Dynamic.DynamicAssembly</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
